@@ -17,5 +17,11 @@ public class ScriptBootons : MonoBehaviour
         Debug.Log("El juego se ha cerrado.");
         Application.Quit();
     }
+    public void VolverAlMenu(){
+        SceneManager.LoadScene("ScenaMenu");
+    }
+    public void Historia(){
+         SceneManager.LoadScene("Historia");
+    }
 
 }
