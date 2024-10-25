@@ -3,13 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement; 
 
-public class VolverMenu : MonoBehaviour
+public class MenuVolver : MonoBehaviour
 {
-   public void VolverMenu2()
-    {
+    public void VolverAlMenu(){
         SceneManager.LoadScene("ScenaMenu");
     }
-
-    
-
 }
