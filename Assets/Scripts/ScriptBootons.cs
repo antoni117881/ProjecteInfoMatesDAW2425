@@ -6,7 +6,7 @@ public class ScriptBootons : MonoBehaviour
 {
     // Start is called before the first frame update
     public void AnarAPntallaInicial(){
-        SceneManager.LoadScene("ScenaJocPrincipa");
+        SceneManager.LoadScene("MapaUno");
     }
     public void AnarAPantallaOpcions()
     {
@@ -20,8 +20,8 @@ public class ScriptBootons : MonoBehaviour
     public void VolverAlMenu(){
         SceneManager.LoadScene("ScenaMenu");
     }
-    public void Historia(){
-         SceneManager.LoadScene("Historia");
+    public void AnarAHistoria(){
+        SceneManager.LoadScene("ScenaHistoria");
     }
 
 }
