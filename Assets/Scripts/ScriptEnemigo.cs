@@ -1,25 +1,46 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class ScriptEnemigo : MonoBehaviour
 {
     private Rigidbody2D _rigidbody2D;
     private float _vel = 8;
-    void Start()   
+    private Camera _camara;
+
+    void Start()
     {
-        _rigidbody2D =GetComponent<Rigidbody2D>();
+        _rigidbody2D = GetComponent<Rigidbody2D>();
+        _camara = Camera.main; // Obtener la cámara principal
+        StartCoroutine(MoverAleatoriamente());
     }
 
-    // Update is called once per frame
-    void Update()
+    IEnumerator MoverAleatoriamente()
     {
-        float inputHoritzontal = Input.GetAxisRaw("Horizontal") * _vel;
+        while (true)
+        {
+           
+            Vector2 direccionAleatoria = new Vector2(Random.Range(-0.5f, 0.5f), Random.Range(-0.5f, 0.5f)).normalized;
 
-        _rigidbody2D.velocity = new Vector2(inputHoritzontal, _rigidbody2D.velocity.y);
+            
+            _rigidbody2D.velocity = direccionAleatoria * _vel;
 
-        float inputVertical = Input.GetAxisRaw("Vertical") * _vel;
-        _rigidbody2D.velocity = new Vector2(_rigidbody2D.velocity.x, inputVertical);
+            
+            yield return new WaitForSeconds(2f);
 
+            LimitarPosicionDentroDeCamara();
+        }
+    }
+
+    void LimitarPosicionDentroDeCamara()
+    {
+  
+        Vector2 pantallaMin = _camara.ViewportToWorldPoint(new Vector2(0, 0)); 
+        Vector2 pantallaMax = _camara.ViewportToWorldPoint(new Vector2(1, 1)); 
+
+    
+        float x = Mathf.Clamp(transform.position.x, pantallaMin.x, pantallaMax.x);
+        float y = Mathf.Clamp(transform.position.y, pantallaMin.y, pantallaMax.y);
+
+        transform.position = new Vector2(x, y);
     }
 }
