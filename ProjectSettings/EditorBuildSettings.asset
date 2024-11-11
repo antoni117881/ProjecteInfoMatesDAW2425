@@ -12,7 +12,7 @@ EditorBuildSettings:
     path: Assets/Scenes/ScenaFinal.unity
     guid: 9d22b0a3b88fa2146a4477867220d394
   - enabled: 1
-    path: Assets/Scenes/ScenaJocPrincipa.unity
+    path: Assets/Scenes/ScenaLluita.unity
     guid: d63e1ae60aedf6549b080699aad68058
   - enabled: 1
     path: Assets/Scenes/ScenaOpcions.unity
