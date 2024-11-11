@@ -19,5 +19,8 @@ public class ScriptPersonatgeJugador : MonoBehaviour
 
         _rigidbody2D.velocity = new Vector2(inputHoritzontal, _rigidbody2D.velocity.y);
 
+        float inputVertical = Input.GetAxisRaw("Vertical") * _vel;
+        _rigidbody2D.velocity = new Vector2(_rigidbody2D.velocity.x, inputVertical);
+
     }
 }
