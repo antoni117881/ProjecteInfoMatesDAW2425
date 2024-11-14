@@ -1,0 +1,3414 @@
+fileFormatVersion: 2
+guid: c25983a790090834ea6c4c959ac8f525
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 65
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Mapa2Completo_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 586
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 458e5c9b36997864ea7b4dfb774a8a60
+      internalID: 479107622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mapa2Completo_1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 586
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c947764ebc83be41a15920428d24a4e
+      internalID: 1298147432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mapa2Completo_2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 586
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0a0c7fa0f590bb4b936dc075bb46871
+      internalID: 2018441001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mapa2Completo_3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 586
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd57eb2010b39d846ad37f3dc58c7d19
+      internalID: -1271722560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mapa2Completo_4
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 586
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c51558cec7616a4382714944f45b3c0
+      internalID: -1025255714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mapa2Completo_5
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 586
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e0caf4e6e97b2b4aa2fc7453c0370db
+      internalID: -1638771240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mapa2Completo_6
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 586
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 944a9ea4ceec0d04fb24d7207225b60b
+      internalID: -624295723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mapa2Completo_7
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 586
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 424ef91a1aa01d3469384fb2cd6cb5c0
+      internalID: -1909082649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mapa2Completo_8
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 586
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8af5d1c1a0c57c145bdf5daa3407cd8c
+      internalID: 22796704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mapa2Completo_9
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 586
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edf86e25f00396345943953b7dced8ef
+      internalID: 1826099447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mapa2Completo_10
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 586
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70ae68b6ec0cb1f4eb2a0a3fe45f65f0
+      internalID: -915416147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mapa2Completo_11
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 586
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a20433cf23227b34295518e7cff489ef
+      internalID: 1030891430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mapa2Completo_12
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 586
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bb17b5c95a262a49a41ef3d9f52ef0c
+      internalID: 1759948415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mapa2Completo_13
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 586
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38f3fce5cf63a884fbf821389ba2b3f6
+      internalID: 477773593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mapa2Completo_14
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 586
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32ce8c2937097e345b3bb9302dcd5aa6
+      internalID: -121986161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mapa2Completo_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 522
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8ae811307e278b47a7895309170f031
+      internalID: -2127382132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mapa2Completo_16
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 522
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36e4f45fd57e364448334b4604a58159
+      internalID: -99899426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mapa2Completo_17
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 522
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0486e321ceb93cc48a9bc1bc2b08ec1a
+      internalID: -1938094410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mapa2Completo_18
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 522
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 044e07812e4b3cc47b50f9a81c37d29d
+      internalID: -1774360984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mapa2Completo_19
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 522
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9ca619bd7cfb9c4fb4c0a276f4d4271
+      internalID: -12659722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mapa2Completo_20
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 522
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a2f4e9fb26208048951445453cc81be
+      internalID: -1246185069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mapa2Completo_21
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 522
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a8be47bf5cb24e4a81bff2f4ecc0e67
+      internalID: 2082878529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mapa2Completo_22
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 522
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6de54a6fa23c7a4390518cd3bb33ad0
+      internalID: 330320496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mapa2Completo_23
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 522
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d9f3266ce8029042903e4418a7ffa42
+      internalID: 1454835841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mapa2Completo_24
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 522
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89fec5f879a350a40865f00ff67463f1
+      internalID: 1002360040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mapa2Completo_25
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 522
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3a59d0e61b2b3548ac0df399b86582c
+      internalID: 1755961484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mapa2Completo_26
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 522
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27759d3708fc7c540b024833b55823ad
+      internalID: -1945580655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mapa2Completo_27
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 522
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e44caf74e559ee4d89d9d11fbd0052a
+      internalID: 355120783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mapa2Completo_28
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 522
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 374f12861490a1743b119083d34de2dd
+      internalID: -1553910668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mapa2Completo_29
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 522
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa1b8f0b3ddd6ec4eaf4cffe38c90ed0
+      internalID: -1814128827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mapa2Completo_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 458
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: facf968be87c833478ddf6acd16b6afc
+      internalID: -1286941269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mapa2Completo_31
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 458
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b9ffbdbe86777041a09f54f3194e487
+      internalID: 394349575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mapa2Completo_32
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 458
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 293f518c63018e744b4215ec95c97d18
+      internalID: 1396251745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mapa2Completo_33
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 458
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4319850e72ef1a540b0daa52ec3f82b0
+      internalID: -1491048475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mapa2Completo_34
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 458
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07beadddff68b9a4abc8c5e773c53b42
+      internalID: -1269939118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mapa2Completo_35
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 458
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c31c5c92e8178bc45b7f52b071ddc967
+      internalID: 1616054004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mapa2Completo_36
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 458
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7e06a8345634114c90d8bf71b75c59f
+      internalID: 633178752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mapa2Completo_37
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 458
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d60d3afe17a44f4a9dcfe503e40a071
+      internalID: 1205594207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mapa2Completo_38
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 458
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b543046fcd6d56348add635227a77941
+      internalID: -840556687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mapa2Completo_39
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 458
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb9a02644368c584a8a958adc109826e
+      internalID: 1739348092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mapa2Completo_40
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 458
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0896c23ba5076d64c8bfa158f28ae745
+      internalID: -1223930071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mapa2Completo_41
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 458
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8361d4ade6da9a44e8cb8505e245c510
+      internalID: 45220830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mapa2Completo_42
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 458
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3e76072216f35e4f818e67c625ee8fc
+      internalID: -1181899288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mapa2Completo_43
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 458
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10d41e724bb4df540a0113e21a76c290
+      internalID: 321987872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mapa2Completo_44
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 458
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af8dcb5aee51ed047b82dc21f4ac8c6b
+      internalID: -1666052208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mapa2Completo_45
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 394
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b52c25811b720a645a43860db04bc82f
+      internalID: 1310450524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mapa2Completo_46
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 394
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f3a48eb58c7e1d4fbeb32b0ac4e298d
+      internalID: -1847711008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mapa2Completo_47
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 394
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7290642090a06ea48b88540bff8824ab
+      internalID: -359652555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mapa2Completo_48
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 394
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02d771eda1189e840bd00a42a90b2e49
+      internalID: -1730488768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mapa2Completo_49
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 394
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6f38458583ecc44e9d0233cfe7fc8d6
+      internalID: -1604670194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mapa2Completo_50
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 394
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10b3dc2f61a9fb7488682dc008daa5c6
+      internalID: -1174803221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mapa2Completo_51
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 394
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6d7a33296cf1f94aba8d5abd8e4f6f0
+      internalID: 1368519785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mapa2Completo_52
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 394
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16feb5e61524eae46a8fd10cff9f1ee2
+      internalID: 1856070237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mapa2Completo_53
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 394
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb3ed9f1c70333042830d65b38e783d1
+      internalID: 36077922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mapa2Completo_54
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 394
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdedb71948c5aee4ea0f1980f08bb635
+      internalID: 889583922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mapa2Completo_55
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 394
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55c2e306f2062c84288570bcde60138f
+      internalID: 934005241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mapa2Completo_56
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 394
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62b7d150820ae624b90b9f38feeb983a
+      internalID: 60912126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mapa2Completo_57
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 394
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9b17217c7be9c143adecaa0df72a5a3
+      internalID: 447239933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mapa2Completo_58
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 394
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ca209bb0b32dfc4795cd45c6d39481c
+      internalID: -2037647307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mapa2Completo_59
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 394
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fd14ac745ed6e745a5c7d44e7eba9e0
+      internalID: 896598726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mapa2Completo_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 330
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4165d12f825ddf439cd044faf79841e
+      internalID: 192534600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mapa2Completo_61
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 330
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84cc8eb8c67b50340a14df8e6f0023c9
+      internalID: -154962766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mapa2Completo_62
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 330
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe88e4eace513cf42ade835b5322fc71
+      internalID: -1848958696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mapa2Completo_63
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 330
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aade1876c68644a40acc12f77f1d57ed
+      internalID: -88868055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mapa2Completo_64
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 330
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd4f2cd56a44b85459a6fe70121aeb5f
+      internalID: 1975702545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mapa2Completo_65
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 330
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f850e3dbc6a97f04dbdb4a09e6795378
+      internalID: 665233704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mapa2Completo_66
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 330
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe78db562db64704193bd184b6336324
+      internalID: 1052824535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mapa2Completo_67
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 330
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea7619af52d5d744aa719dad2517e6e9
+      internalID: 1469888139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mapa2Completo_68
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 330
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: defb37a6b9ca3b24d97596185b455f84
+      internalID: 572838462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mapa2Completo_69
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 330
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4265fc71bad22054696fcefebcbed693
+      internalID: -576023190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mapa2Completo_70
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 330
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4287ab9f8b041fc44b67dff5c6224e42
+      internalID: -2057830332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mapa2Completo_71
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 330
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c266ccddcdee0b44b615049f1b55c60
+      internalID: 1180524963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mapa2Completo_72
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 330
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 461bfae386c230a4bb816797b6e0fea0
+      internalID: 621462880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mapa2Completo_73
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 330
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b8f34906cb2f844abeea9a8744aeed9
+      internalID: -1355885382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mapa2Completo_74
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 330
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad38bb5d0e72de44a9a7dbfd1c5d013e
+      internalID: -2123659183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mapa2Completo_75
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 266
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d87b1f77dd573b4f8c15f72e0b2bc38
+      internalID: 322069735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mapa2Completo_76
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 266
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b185448329682f47838d5a8f2ababe6
+      internalID: -837569882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mapa2Completo_77
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 266
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19c387bd73b3f2449a68550d9009592f
+      internalID: 413645638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mapa2Completo_78
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 266
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d724fa1858d33246a7db911c6d56c35
+      internalID: -1423808988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mapa2Completo_79
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 266
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b8065432c522134197c668db8d41c41
+      internalID: 740649631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mapa2Completo_80
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 266
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e99263b5ba5c3934c94724c134f9721c
+      internalID: 1739789842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mapa2Completo_81
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 266
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcbcc172177f3c74c9d2f3fce4e86aa1
+      internalID: -1986918212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mapa2Completo_82
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 266
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 615c6f7326f1276489cf7e392efac59f
+      internalID: 693671718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mapa2Completo_83
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 266
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c371a36d5b779eb4eb6d275637350967
+      internalID: 890534764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mapa2Completo_84
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 266
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2122e6171bb480140b03a8ab3771bb2a
+      internalID: 977649936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mapa2Completo_85
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 266
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dddab5101f95e0419477f78da311b0d
+      internalID: -149101584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mapa2Completo_86
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 266
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2dada6b9f6c7d4418843bed0c4e96ba
+      internalID: -1336386630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mapa2Completo_87
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 266
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6e46a07fccc59e4097d8518d271e519
+      internalID: -1195279279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mapa2Completo_88
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 266
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 643cb90c39ef6e54f93ded1d5a4c94f8
+      internalID: -2058073973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mapa2Completo_89
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 266
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef5a933e9783b4e478f9ad259cfefaf4
+      internalID: 347127245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mapa2Completo_90
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 202
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16ee7e0ee7acbd445a022945375ac4cd
+      internalID: -1695903271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mapa2Completo_91
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 202
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 948694465646fc44289643b0f672d75d
+      internalID: 1911204101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mapa2Completo_92
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 202
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1f4ae638762a3f499430338fa8ecc5d
+      internalID: -1677881520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mapa2Completo_93
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 202
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecaaf197dfd2db84fb03d4ae5f5dcd82
+      internalID: -160553851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mapa2Completo_94
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 202
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d12deafb11ed8c64b9abebfd557d224f
+      internalID: 742729442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mapa2Completo_95
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 202
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7413d0f041391d241bbc7142764fbd2a
+      internalID: -237469907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mapa2Completo_96
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 202
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91ae335baba2bc347863e69013c54359
+      internalID: 1972373461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mapa2Completo_97
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 202
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 008274c8dbdbebe4f96816c30295c250
+      internalID: 142706414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mapa2Completo_98
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 202
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff98fa710a144c847ab382152787b8f0
+      internalID: -1342195166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mapa2Completo_99
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 202
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dc5a7df422d5634d8706ca230ed087c
+      internalID: 1499772341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mapa2Completo_100
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 202
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c313629e0fee7124fbcf22e3cfe2c1f3
+      internalID: -1678688597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mapa2Completo_101
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 202
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3e1d3a37dccd3f4097e417cf60a54ad
+      internalID: -599157716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mapa2Completo_102
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 202
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e77f8bab0cea3194aa8e8817132564bd
+      internalID: 786069189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mapa2Completo_103
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 202
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c528ba9aa4d43c0408efee032fa227d5
+      internalID: -912675676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mapa2Completo_104
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 202
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e72f30324732a04896a3b427aba8b10
+      internalID: -647081867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mapa2Completo_105
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 138
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 576cc74120821ff40a5934fd24862360
+      internalID: 1514851145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mapa2Completo_106
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 138
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e4f159295c8b6b41af66bef637d3b4b
+      internalID: 1517365901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mapa2Completo_107
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 138
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27df33d852335104282e2b488af00c7d
+      internalID: -1900671355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mapa2Completo_108
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 138
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e11898f8a2fa1f4b886c2ff30324bce
+      internalID: -728996635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mapa2Completo_109
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 138
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b37396d657b40144393015f3c16b3bcd
+      internalID: 1809043265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mapa2Completo_110
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 138
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73618cd8607bb7349b50d426fd437eee
+      internalID: 1517087823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mapa2Completo_111
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 138
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c5bc8bba37326b4092dc45437d95281
+      internalID: -1727405603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mapa2Completo_112
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 138
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cb18c2f5e8fc8b478483c43c5cdb104
+      internalID: 1206174379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mapa2Completo_113
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 138
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43e55b98fd4dd5140b066b16f91cecd0
+      internalID: -846237988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mapa2Completo_114
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 138
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 588d3be8db72c5d4da63eff441a014e8
+      internalID: -1165976199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mapa2Completo_115
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 138
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e11e7b87bb16648499695094e40763a6
+      internalID: 72433230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mapa2Completo_116
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 138
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24ab52f5428c21e4cb91ae7ad1049e37
+      internalID: -211807217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mapa2Completo_117
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 138
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c86d35442d29f54d90f6d20985b646d
+      internalID: -1756179588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mapa2Completo_118
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 138
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fc993cedf4df85439c6873384185aae
+      internalID: -1172119937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mapa2Completo_119
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 138
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a486bb27f455c53498623c7196fba10c
+      internalID: -1824264247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mapa2Completo_120
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 74
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c80c32094fc928c4e8aa1a78dabb749c
+      internalID: -321864413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mapa2Completo_121
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 74
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3cdf43eed874884b92760ac200b96ff
+      internalID: 1732078012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mapa2Completo_122
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 74
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12b624ba24b8490459d337f973140c87
+      internalID: -630413559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mapa2Completo_123
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 74
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d63a4e40d4a67e048827a3d831c07c72
+      internalID: 1130510303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mapa2Completo_124
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 74
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8815ffff0aa34c6499a2e1d8d0d5f630
+      internalID: -2017660688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mapa2Completo_125
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 74
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c287547c4d4952a4a90deaaafe7e84a3
+      internalID: -960350779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mapa2Completo_126
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 74
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e823f662a90b3d4684b11b937a9a7d8
+      internalID: -1008265753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mapa2Completo_127
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 74
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25bff4990bf224c4899646e47ae57d8d
+      internalID: -2025721243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mapa2Completo_128
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 74
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fc36a133fcb50c4eae18392aa4bd675
+      internalID: 1745621012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mapa2Completo_129
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 74
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08d0ea19594c16b4e92b6a95b8661393
+      internalID: 1266521800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mapa2Completo_130
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 74
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09e09f4ba92c8e440b75e5a8c2d45ea3
+      internalID: -1773829274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mapa2Completo_131
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 74
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0ac0ea63202f494b8f1fa914fa2fe85
+      internalID: 1904469274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mapa2Completo_132
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 74
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81b96e01e7af88d4ba0890de0c7d3824
+      internalID: -1849379679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mapa2Completo_133
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 74
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b05d8459b997414783c716f1e576c97
+      internalID: 1637640584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mapa2Completo_134
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 74
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 896ae8f590c4b7f49a0743970d757a2e
+      internalID: -84727788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mapa2Completo_135
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 10
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d11bc435a6d321f49a6b2e6d7bfeecc4
+      internalID: 614089073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mapa2Completo_136
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 10
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe904985a0bd39d46a3ff5f0f1ea3c9c
+      internalID: -862638968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mapa2Completo_137
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 10
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fb3888ebc624c74eb256b0989e56e26
+      internalID: 1168615021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mapa2Completo_138
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 10
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18543c37124032e4e92851f0906b412b
+      internalID: -2043484109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mapa2Completo_139
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 10
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05b70383946e7fc4989e09ba657a6214
+      internalID: 335404106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mapa2Completo_140
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 10
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34c5c408ca8c1464a9c4c9b05b4d0999
+      internalID: 1239828964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mapa2Completo_141
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 10
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42788c1dc70c8fe4590d6d39a41a22cb
+      internalID: 554415027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mapa2Completo_142
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 10
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c90b117326f03384fa4e65acc07d32c1
+      internalID: 1405934665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mapa2Completo_143
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 10
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d0de36079c35a84981c21e5b895dc64
+      internalID: -1280238807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mapa2Completo_144
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 10
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0016bafe82e3b3f4d84cec2c0d3ba6d2
+      internalID: -1765902191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mapa2Completo_145
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 10
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13eae93eb54b98b429a771c1324e1215
+      internalID: 1551969007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mapa2Completo_146
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 10
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b510799be46bbe0459bd646aa5ac9380
+      internalID: 965233714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mapa2Completo_147
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 10
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0692d188a95de354980145575baf6396
+      internalID: 1083874378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mapa2Completo_148
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 10
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 721864a217e3bab4780c201cfef39c66
+      internalID: -859068882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mapa2Completo_149
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 10
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c25a2d484afde04c955a28aaa3102e8
+      internalID: 1915336256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Mapa2Completo_0: 479107622
+      Mapa2Completo_1: 1298147432
+      Mapa2Completo_10: -915416147
+      Mapa2Completo_100: -1678688597
+      Mapa2Completo_101: -599157716
+      Mapa2Completo_102: 786069189
+      Mapa2Completo_103: -912675676
+      Mapa2Completo_104: -647081867
+      Mapa2Completo_105: 1514851145
+      Mapa2Completo_106: 1517365901
+      Mapa2Completo_107: -1900671355
+      Mapa2Completo_108: -728996635
+      Mapa2Completo_109: 1809043265
+      Mapa2Completo_11: 1030891430
+      Mapa2Completo_110: 1517087823
+      Mapa2Completo_111: -1727405603
+      Mapa2Completo_112: 1206174379
+      Mapa2Completo_113: -846237988
+      Mapa2Completo_114: -1165976199
+      Mapa2Completo_115: 72433230
+      Mapa2Completo_116: -211807217
+      Mapa2Completo_117: -1756179588
+      Mapa2Completo_118: -1172119937
+      Mapa2Completo_119: -1824264247
+      Mapa2Completo_12: 1759948415
+      Mapa2Completo_120: -321864413
+      Mapa2Completo_121: 1732078012
+      Mapa2Completo_122: -630413559
+      Mapa2Completo_123: 1130510303
+      Mapa2Completo_124: -2017660688
+      Mapa2Completo_125: -960350779
+      Mapa2Completo_126: -1008265753
+      Mapa2Completo_127: -2025721243
+      Mapa2Completo_128: 1745621012
+      Mapa2Completo_129: 1266521800
+      Mapa2Completo_13: 477773593
+      Mapa2Completo_130: -1773829274
+      Mapa2Completo_131: 1904469274
+      Mapa2Completo_132: -1849379679
+      Mapa2Completo_133: 1637640584
+      Mapa2Completo_134: -84727788
+      Mapa2Completo_135: 614089073
+      Mapa2Completo_136: -862638968
+      Mapa2Completo_137: 1168615021
+      Mapa2Completo_138: -2043484109
+      Mapa2Completo_139: 335404106
+      Mapa2Completo_14: -121986161
+      Mapa2Completo_140: 1239828964
+      Mapa2Completo_141: 554415027
+      Mapa2Completo_142: 1405934665
+      Mapa2Completo_143: -1280238807
+      Mapa2Completo_144: -1765902191
+      Mapa2Completo_145: 1551969007
+      Mapa2Completo_146: 965233714
+      Mapa2Completo_147: 1083874378
+      Mapa2Completo_148: -859068882
+      Mapa2Completo_149: 1915336256
+      Mapa2Completo_15: -2127382132
+      Mapa2Completo_16: -99899426
+      Mapa2Completo_17: -1938094410
+      Mapa2Completo_18: -1774360984
+      Mapa2Completo_19: -12659722
+      Mapa2Completo_2: 2018441001
+      Mapa2Completo_20: -1246185069
+      Mapa2Completo_21: 2082878529
+      Mapa2Completo_22: 330320496
+      Mapa2Completo_23: 1454835841
+      Mapa2Completo_24: 1002360040
+      Mapa2Completo_25: 1755961484
+      Mapa2Completo_26: -1945580655
+      Mapa2Completo_27: 355120783
+      Mapa2Completo_28: -1553910668
+      Mapa2Completo_29: -1814128827
+      Mapa2Completo_3: -1271722560
+      Mapa2Completo_30: -1286941269
+      Mapa2Completo_31: 394349575
+      Mapa2Completo_32: 1396251745
+      Mapa2Completo_33: -1491048475
+      Mapa2Completo_34: -1269939118
+      Mapa2Completo_35: 1616054004
+      Mapa2Completo_36: 633178752
+      Mapa2Completo_37: 1205594207
+      Mapa2Completo_38: -840556687
+      Mapa2Completo_39: 1739348092
+      Mapa2Completo_4: -1025255714
+      Mapa2Completo_40: -1223930071
+      Mapa2Completo_41: 45220830
+      Mapa2Completo_42: -1181899288
+      Mapa2Completo_43: 321987872
+      Mapa2Completo_44: -1666052208
+      Mapa2Completo_45: 1310450524
+      Mapa2Completo_46: -1847711008
+      Mapa2Completo_47: -359652555
+      Mapa2Completo_48: -1730488768
+      Mapa2Completo_49: -1604670194
+      Mapa2Completo_5: -1638771240
+      Mapa2Completo_50: -1174803221
+      Mapa2Completo_51: 1368519785
+      Mapa2Completo_52: 1856070237
+      Mapa2Completo_53: 36077922
+      Mapa2Completo_54: 889583922
+      Mapa2Completo_55: 934005241
+      Mapa2Completo_56: 60912126
+      Mapa2Completo_57: 447239933
+      Mapa2Completo_58: -2037647307
+      Mapa2Completo_59: 896598726
+      Mapa2Completo_6: -624295723
+      Mapa2Completo_60: 192534600
+      Mapa2Completo_61: -154962766
+      Mapa2Completo_62: -1848958696
+      Mapa2Completo_63: -88868055
+      Mapa2Completo_64: 1975702545
+      Mapa2Completo_65: 665233704
+      Mapa2Completo_66: 1052824535
+      Mapa2Completo_67: 1469888139
+      Mapa2Completo_68: 572838462
+      Mapa2Completo_69: -576023190
+      Mapa2Completo_7: -1909082649
+      Mapa2Completo_70: -2057830332
+      Mapa2Completo_71: 1180524963
+      Mapa2Completo_72: 621462880
+      Mapa2Completo_73: -1355885382
+      Mapa2Completo_74: -2123659183
+      Mapa2Completo_75: 322069735
+      Mapa2Completo_76: -837569882
+      Mapa2Completo_77: 413645638
+      Mapa2Completo_78: -1423808988
+      Mapa2Completo_79: 740649631
+      Mapa2Completo_8: 22796704
+      Mapa2Completo_80: 1739789842
+      Mapa2Completo_81: -1986918212
+      Mapa2Completo_82: 693671718
+      Mapa2Completo_83: 890534764
+      Mapa2Completo_84: 977649936
+      Mapa2Completo_85: -149101584
+      Mapa2Completo_86: -1336386630
+      Mapa2Completo_87: -1195279279
+      Mapa2Completo_88: -2058073973
+      Mapa2Completo_89: 347127245
+      Mapa2Completo_9: 1826099447
+      Mapa2Completo_90: -1695903271
+      Mapa2Completo_91: 1911204101
+      Mapa2Completo_92: -1677881520
+      Mapa2Completo_93: -160553851
+      Mapa2Completo_94: 742729442
+      Mapa2Completo_95: -237469907
+      Mapa2Completo_96: 1972373461
+      Mapa2Completo_97: 142706414
+      Mapa2Completo_98: -1342195166
+      Mapa2Completo_99: 1499772341
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
