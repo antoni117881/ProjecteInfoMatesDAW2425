@@ -23,5 +23,5 @@ public class ScriptBootons : MonoBehaviour
     public void AnarAHistoria(){
         SceneManager.LoadScene("ScenaHistoria");
     }
-
+ 
 }
