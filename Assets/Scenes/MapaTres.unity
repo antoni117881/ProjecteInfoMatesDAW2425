@@ -743,6 +743,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7089f16898fb53b47bef202b1f021c25, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  spriteIzquierda: {fileID: 2104221255, guid: d32bd1394d7b2774b83533b55a888fa7, type: 3}
+  spriteDerecha: {fileID: -990135610, guid: d32bd1394d7b2774b83533b55a888fa7, type: 3}
+  spriteAtras: {fileID: -1337940800, guid: d32bd1394d7b2774b83533b55a888fa7, type: 3}
+  spriteFrente: {fileID: 198853935, guid: d32bd1394d7b2774b83533b55a888fa7, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
