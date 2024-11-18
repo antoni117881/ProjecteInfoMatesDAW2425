@@ -6,7 +6,7 @@ using UnityEngine;
 public class ScriptPersonatgeJugador : MonoBehaviour
 {
     private Rigidbody2D _rigidbody2D;
-    private float _vel = 8;
+    private float _vel = 6;  // variavle parala velocidad 
     void Start()   
     {
         _rigidbody2D =GetComponent<Rigidbody2D>();
@@ -24,3 +24,4 @@ public class ScriptPersonatgeJugador : MonoBehaviour
 
     }
 }
+    
