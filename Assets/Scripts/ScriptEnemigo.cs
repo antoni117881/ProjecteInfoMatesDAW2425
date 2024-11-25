@@ -4,43 +4,71 @@ using UnityEngine;
 public class ScriptEnemigo : MonoBehaviour
 {
     private Rigidbody2D _rigidbody2D;
-    private float _vel = 8;
+    private float _vel = 8f;
     private Camera _camara;
+    private Vector2 _direccionAleatoria;
+
+    [SerializeField] private Sprite spriteIzquierda;
+    [SerializeField] private Sprite spriteDerecha;
+    [SerializeField] private Sprite spriteAtras;
+    [SerializeField] private Sprite spriteFrente;
+    private SpriteRenderer _spriteRenderer;
 
     void Start()
     {
         _rigidbody2D = GetComponent<Rigidbody2D>();
-        _camara = Camera.main; // Obtener la cámara principal
+        _spriteRenderer = GetComponent<SpriteRenderer>();
+        _camara = Camera.main;
         StartCoroutine(MoverAleatoriamente());
     }
 
-    IEnumerator MoverAleatoriamente()
+    void Update()
+    {
+        _rigidbody2D.velocity = _direccionAleatoria * _vel;
+        CambiarSpriteDireccion();
+        LimitarPosicionDentroDeCamara();
+    }
+
+    private IEnumerator MoverAleatoriamente()
     {
         while (true)
         {
-           
-            Vector2 direccionAleatoria = new Vector2(Random.Range(-0.5f, 0.5f), Random.Range(-0.5f, 0.5f)).normalized;
-
-            
-            _rigidbody2D.velocity = direccionAleatoria * _vel;
-
-            
+            _direccionAleatoria = new Vector2(Random.Range(-1f, 1f), Random.Range(-1f, 1f)).normalized;
             yield return new WaitForSeconds(2f);
-
-            LimitarPosicionDentroDeCamara();
         }
     }
 
-    void LimitarPosicionDentroDeCamara()
+    private void CambiarSpriteDireccion()
     {
-  
-        Vector2 pantallaMin = _camara.ViewportToWorldPoint(new Vector2(0, 0)); 
-        Vector2 pantallaMax = _camara.ViewportToWorldPoint(new Vector2(1, 1)); 
+        if (_direccionAleatoria.x < 0)
+            _spriteRenderer.sprite = spriteIzquierda;
+        else if (_direccionAleatoria.x > 0)
+            _spriteRenderer.sprite = spriteDerecha;
+        else if (_direccionAleatoria.y > 0)
+            _spriteRenderer.sprite = spriteAtras;
+        else if (_direccionAleatoria.y < 0)
+            _spriteRenderer.sprite = spriteFrente;
+    }
 
-    
-        float x = Mathf.Clamp(transform.position.x, pantallaMin.x, pantallaMax.x);
-        float y = Mathf.Clamp(transform.position.y, pantallaMin.y, pantallaMax.y);
+    private void LimitarPosicionDentroDeCamara()
+    {
+        Vector2 pantallaMin = _camara.ViewportToWorldPoint(new Vector2(0, 0));
+        Vector2 pantallaMax = _camara.ViewportToWorldPoint(new Vector2(1, 1));
 
-        transform.position = new Vector2(x, y);
+        Vector2 posicionActual = transform.position;
+
+        if (posicionActual.x < pantallaMin.x || posicionActual.x > pantallaMax.x)
+        {
+            _direccionAleatoria.x = -_direccionAleatoria.x;
+            posicionActual.x = Mathf.Clamp(posicionActual.x, pantallaMin.x, pantallaMax.x);
+        }
+
+        if (posicionActual.y < pantallaMin.y || posicionActual.y > pantallaMax.y)
+        {
+            _direccionAleatoria.y = -_direccionAleatoria.y;
+            posicionActual.y = Mathf.Clamp(posicionActual.y, pantallaMin.y, pantallaMax.y);
+        }
+
+        transform.position = posicionActual;
     }
 }
