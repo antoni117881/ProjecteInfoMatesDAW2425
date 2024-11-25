@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.IO;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class ScriptPersonatgeJugador : MonoBehaviour
 {
@@ -21,6 +22,22 @@ public class ScriptPersonatgeJugador : MonoBehaviour
 
         float inputVertical = Input.GetAxisRaw("Vertical") * _vel;
         _rigidbody2D.velocity = new Vector2(_rigidbody2D.velocity.x, inputVertical);
+
+    }
+
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.CompareTag("Enemy")) //si colisiona con pj nos lleva a MapaDeCombate
+        {
+            SceneManager.LoadScene("ScenaLluita");
+        }
+        //else //nos manda al siguiente mapa
+        //{
+        //   SceneManager.LoadScene(siguentePantalla);
+        //}
+
+
 
     }
 }

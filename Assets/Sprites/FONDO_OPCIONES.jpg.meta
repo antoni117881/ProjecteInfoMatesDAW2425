@@ -1,0 +1,1962 @@
+fileFormatVersion: 2
+guid: bee94cd083bfc704e8da248f6faa70a7
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 120
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: FONDO_OPCIONES_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 930
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eedbfa9046377a74f9284dd9daf961e1
+      internalID: -667553412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONDO_OPCIONES_1
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 930
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba5002f77b78c7d4bb9bb5ac66e76e87
+      internalID: 499971009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONDO_OPCIONES_2
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 930
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3c572c89b1ca4a42887fc7e605bfaef
+      internalID: -789083366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONDO_OPCIONES_3
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 930
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69941e2d7da66ae4e9fe561753ea4dc7
+      internalID: 1470246426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONDO_OPCIONES_4
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 930
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01981079940a5154ab889aab87b6175d
+      internalID: -1929782773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONDO_OPCIONES_5
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 930
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b87ae54c894897d4f8b1f3fd43bf67e3
+      internalID: 415757024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONDO_OPCIONES_6
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 930
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d4faa76bc80cc6448260fb1d05ed847
+      internalID: 351521942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONDO_OPCIONES_7
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 930
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c19ac067626ae3449414cec7150c93f
+      internalID: 527822780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONDO_OPCIONES_8
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 930
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19e7ede5e4220bf4a9b787edce2a9f65
+      internalID: 263415781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONDO_OPCIONES_9
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 930
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 970a2bb5bbab77642b51be9f39719a9d
+      internalID: -898526921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONDO_OPCIONES_10
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 930
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ff5f3831f21ff44a94438cd4997a275
+      internalID: -269899238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONDO_OPCIONES_11
+      rect:
+        serializedVersion: 2
+        x: 1650
+        y: 930
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9631b856e8647bd46ab514427890a19b
+      internalID: 1634538594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONDO_OPCIONES_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 780
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 761590d7323ab734a995b306dec319bd
+      internalID: -205417641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONDO_OPCIONES_13
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 780
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acb2113e087e5f849b77122824a770a5
+      internalID: 306883525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONDO_OPCIONES_14
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 780
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3cf28b95382d1c4b92866b59e5d3e93
+      internalID: -1028325140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONDO_OPCIONES_15
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 780
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22138a7db3e7d3f47ab7345278d05f90
+      internalID: 699890213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONDO_OPCIONES_16
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 780
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24cd75d8a5f9be54c8c986e478fd8515
+      internalID: 1536185755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONDO_OPCIONES_17
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 780
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 629014d06c16d4e4da3e13b8919d8e26
+      internalID: -1177242632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONDO_OPCIONES_18
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 780
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8f7fe7a365fb1741969c293e0db5158
+      internalID: 156149875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONDO_OPCIONES_19
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 780
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ebf2f88b7512ca4c831ccc2a4bfe4d2
+      internalID: 316770070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONDO_OPCIONES_20
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 780
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aed3f93ca6594d84b92694a5fd070180
+      internalID: -1040847736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONDO_OPCIONES_21
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 780
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91c2a27a5aa1f5746bf9892b2e7b8dde
+      internalID: -1636684868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONDO_OPCIONES_22
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 780
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebe06092e930a05479e20b091fccbf32
+      internalID: 1454414194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONDO_OPCIONES_23
+      rect:
+        serializedVersion: 2
+        x: 1650
+        y: 780
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab127dbf67683da4baefcb8ac76f2fff
+      internalID: 790057967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONDO_OPCIONES_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 630
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a60d87bf52f5824d9119b595d250208
+      internalID: -691560864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONDO_OPCIONES_25
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 630
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f4a754e3378e6444b6416de1040440d
+      internalID: -1898499236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONDO_OPCIONES_26
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 630
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 634919251755708428babdaecb71486a
+      internalID: 276459441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONDO_OPCIONES_27
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 630
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: faf0fcfb33827f84494580cdaf5d2b96
+      internalID: -340546738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONDO_OPCIONES_28
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 630
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bfa9cc9fa30d584ebc1bd94cbe737c9
+      internalID: -1393273541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONDO_OPCIONES_29
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 630
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a037508540ca3bb47b41824ab7f58bb6
+      internalID: 352986078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONDO_OPCIONES_30
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 630
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49ad6161b49dc4b438155dd0653f0e25
+      internalID: 564144086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONDO_OPCIONES_31
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 630
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e63ca33095072714db31387a9be29187
+      internalID: 974524703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONDO_OPCIONES_32
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 630
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dea7424c083e5de4ab75dfb82c6cfec6
+      internalID: -1418122175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONDO_OPCIONES_33
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 630
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91034bddebf39194087a54fd2de57669
+      internalID: -534832287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONDO_OPCIONES_34
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 630
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a340ee06505eec489ff9f43f999a4a5
+      internalID: 364289380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONDO_OPCIONES_35
+      rect:
+        serializedVersion: 2
+        x: 1650
+        y: 630
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5788d387a19519440b1bfc535993f046
+      internalID: 432251590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONDO_OPCIONES_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 480
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 462b75b67177cbc4a8518ec427a908ac
+      internalID: 378986171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONDO_OPCIONES_37
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 480
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2091b84db4412594695d77d56f5beb96
+      internalID: 726001913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONDO_OPCIONES_38
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 480
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18449df8cc9b20b49833d660adaccdbe
+      internalID: -2095495122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONDO_OPCIONES_39
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 480
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be41200be7ca6d84c9400cb0b71f13a4
+      internalID: -931826634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONDO_OPCIONES_40
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 480
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7789e4286dc89c045a21a85e3d4acd70
+      internalID: -1378270401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONDO_OPCIONES_41
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 480
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efa787ae5f6e890408e52738f9d82faf
+      internalID: -1836881260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONDO_OPCIONES_42
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 480
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4329f90ed77adde4986366e53786c032
+      internalID: 1297706479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONDO_OPCIONES_43
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 480
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f64590f76a55ae74598ed7a6e3668e1b
+      internalID: 2135623162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONDO_OPCIONES_44
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 480
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce56962f7e430284d9f7dd9e64042e5c
+      internalID: 236272156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONDO_OPCIONES_45
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 480
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f2eca87f65578f4a9c5ff8f614bf2d8
+      internalID: 1811486249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONDO_OPCIONES_46
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 480
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07ad2c377c6af86488574826575b94cf
+      internalID: -853026350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONDO_OPCIONES_47
+      rect:
+        serializedVersion: 2
+        x: 1650
+        y: 480
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f35428f42ec9ff42a72341de9731de2
+      internalID: -1130327643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONDO_OPCIONES_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 330
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18aed2bf963a7b14fa28613ba40a61e8
+      internalID: 158510005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONDO_OPCIONES_49
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 330
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f828104be9640b4b8adb31c9d6df11e
+      internalID: 1394640139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONDO_OPCIONES_50
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 330
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73ad48919c70524468d5d6f08ad9d6f4
+      internalID: -1499852092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONDO_OPCIONES_51
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 330
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63fe676b6f95754448a227c062200155
+      internalID: -2079793638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONDO_OPCIONES_52
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 330
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 525bbe7690d08d04b9d5f5be156f75c9
+      internalID: 740336230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONDO_OPCIONES_53
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 330
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c3cc79eb7ba568408445ddd3bc0a49f
+      internalID: 1591484565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONDO_OPCIONES_54
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 330
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1dafa84649fd2b4aa024f5c101c3246
+      internalID: 168777315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONDO_OPCIONES_55
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 330
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea660bf3e3054c54587de7b0b91ac976
+      internalID: -1305729550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONDO_OPCIONES_56
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 330
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7926b300e9037ae4bbdccb38f748806c
+      internalID: 122939645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONDO_OPCIONES_57
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 330
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 087ae71d54ed0ee4ab47c0ea4a19abed
+      internalID: -1839834405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONDO_OPCIONES_58
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 330
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9ff31f9c00b8964f964017971c3800d
+      internalID: 41326475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONDO_OPCIONES_59
+      rect:
+        serializedVersion: 2
+        x: 1650
+        y: 330
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69d6b9cf586948f4d86ac01b3b26e93e
+      internalID: 1706015641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONDO_OPCIONES_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 180
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 013587233261bd44488b181b4df4bb30
+      internalID: 350998115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONDO_OPCIONES_61
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 180
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9598e234cb8b37449b3e8d390586c6f7
+      internalID: -1855796996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONDO_OPCIONES_62
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 180
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dfe7c88e2a171d4d95cccdb1db51581
+      internalID: -1661337290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONDO_OPCIONES_63
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 180
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 636161a812bbc9d45b61eb463a5b2bf7
+      internalID: -1383258803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONDO_OPCIONES_64
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 180
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecf02835b7668ad4f9c455aaef1dc411
+      internalID: -1352892480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONDO_OPCIONES_65
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 180
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 284a76a8baffbcc4ba9f6436b36e9efb
+      internalID: -2013300891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONDO_OPCIONES_66
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 180
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0156f8e61e9942342836f8d297ea4c71
+      internalID: -1912470902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONDO_OPCIONES_67
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 180
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6d0a96bf72fa2a4f9d5ebc563e014d9
+      internalID: 1421308213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONDO_OPCIONES_68
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 180
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da1b36ff555c80244b161a8997e27a80
+      internalID: -1228189055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONDO_OPCIONES_69
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 180
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2cc3a8bc66a1624694456dd725854f1
+      internalID: 1913185331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONDO_OPCIONES_70
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 180
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a425dfd2f1f5ac4883849743b8c9f60
+      internalID: -230743466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONDO_OPCIONES_71
+      rect:
+        serializedVersion: 2
+        x: 1650
+        y: 180
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aafce539a1a8a5343aef14fb9c13676e
+      internalID: 1191001590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONDO_OPCIONES_72
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 30
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d472440cf5de14c4c92e2d7eebf4f1b4
+      internalID: 1415620356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONDO_OPCIONES_73
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 30
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dfe36d7d72868a47bd3bc1ddb2a37fe
+      internalID: 1440973224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONDO_OPCIONES_74
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 30
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca118219744031c4aaddaaa9a0784cc0
+      internalID: -1170832613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONDO_OPCIONES_75
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 30
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9e84a7da7c363f4da46978173d172ee
+      internalID: -561339217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONDO_OPCIONES_76
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 30
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b6730858f82693458348ed4de0ae7da
+      internalID: 1242765217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONDO_OPCIONES_77
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 30
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 904408127be73ba4d8540e41b508bd00
+      internalID: -1214793424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONDO_OPCIONES_78
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 30
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 476fcf06da4c93f48834052a77f0dc66
+      internalID: -2120852114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONDO_OPCIONES_79
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 30
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 627a4803af99ad84a88657c8a71488a2
+      internalID: -523488692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONDO_OPCIONES_80
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 30
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a9b71bfab8528b4fa21b15d8a530eb3
+      internalID: 1914263028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONDO_OPCIONES_81
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 30
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4acb9b6084b8aa642b7fc905b5e04670
+      internalID: -1042557667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONDO_OPCIONES_82
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 30
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77720ed2c212fb74c9ef028647727165
+      internalID: -494031153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONDO_OPCIONES_83
+      rect:
+        serializedVersion: 2
+        x: 1650
+        y: 30
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f569dd6776605448867ace8cf67577e
+      internalID: -342902082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      FONDO_OPCIONES_0: -667553412
+      FONDO_OPCIONES_1: 499971009
+      FONDO_OPCIONES_10: -269899238
+      FONDO_OPCIONES_11: 1634538594
+      FONDO_OPCIONES_12: -205417641
+      FONDO_OPCIONES_13: 306883525
+      FONDO_OPCIONES_14: -1028325140
+      FONDO_OPCIONES_15: 699890213
+      FONDO_OPCIONES_16: 1536185755
+      FONDO_OPCIONES_17: -1177242632
+      FONDO_OPCIONES_18: 156149875
+      FONDO_OPCIONES_19: 316770070
+      FONDO_OPCIONES_2: -789083366
+      FONDO_OPCIONES_20: -1040847736
+      FONDO_OPCIONES_21: -1636684868
+      FONDO_OPCIONES_22: 1454414194
+      FONDO_OPCIONES_23: 790057967
+      FONDO_OPCIONES_24: -691560864
+      FONDO_OPCIONES_25: -1898499236
+      FONDO_OPCIONES_26: 276459441
+      FONDO_OPCIONES_27: -340546738
+      FONDO_OPCIONES_28: -1393273541
+      FONDO_OPCIONES_29: 352986078
+      FONDO_OPCIONES_3: 1470246426
+      FONDO_OPCIONES_30: 564144086
+      FONDO_OPCIONES_31: 974524703
+      FONDO_OPCIONES_32: -1418122175
+      FONDO_OPCIONES_33: -534832287
+      FONDO_OPCIONES_34: 364289380
+      FONDO_OPCIONES_35: 432251590
+      FONDO_OPCIONES_36: 378986171
+      FONDO_OPCIONES_37: 726001913
+      FONDO_OPCIONES_38: -2095495122
+      FONDO_OPCIONES_39: -931826634
+      FONDO_OPCIONES_4: -1929782773
+      FONDO_OPCIONES_40: -1378270401
+      FONDO_OPCIONES_41: -1836881260
+      FONDO_OPCIONES_42: 1297706479
+      FONDO_OPCIONES_43: 2135623162
+      FONDO_OPCIONES_44: 236272156
+      FONDO_OPCIONES_45: 1811486249
+      FONDO_OPCIONES_46: -853026350
+      FONDO_OPCIONES_47: -1130327643
+      FONDO_OPCIONES_48: 158510005
+      FONDO_OPCIONES_49: 1394640139
+      FONDO_OPCIONES_5: 415757024
+      FONDO_OPCIONES_50: -1499852092
+      FONDO_OPCIONES_51: -2079793638
+      FONDO_OPCIONES_52: 740336230
+      FONDO_OPCIONES_53: 1591484565
+      FONDO_OPCIONES_54: 168777315
+      FONDO_OPCIONES_55: -1305729550
+      FONDO_OPCIONES_56: 122939645
+      FONDO_OPCIONES_57: -1839834405
+      FONDO_OPCIONES_58: 41326475
+      FONDO_OPCIONES_59: 1706015641
+      FONDO_OPCIONES_6: 351521942
+      FONDO_OPCIONES_60: 350998115
+      FONDO_OPCIONES_61: -1855796996
+      FONDO_OPCIONES_62: -1661337290
+      FONDO_OPCIONES_63: -1383258803
+      FONDO_OPCIONES_64: -1352892480
+      FONDO_OPCIONES_65: -2013300891
+      FONDO_OPCIONES_66: -1912470902
+      FONDO_OPCIONES_67: 1421308213
+      FONDO_OPCIONES_68: -1228189055
+      FONDO_OPCIONES_69: 1913185331
+      FONDO_OPCIONES_7: 527822780
+      FONDO_OPCIONES_70: -230743466
+      FONDO_OPCIONES_71: 1191001590
+      FONDO_OPCIONES_72: 1415620356
+      FONDO_OPCIONES_73: 1440973224
+      FONDO_OPCIONES_74: -1170832613
+      FONDO_OPCIONES_75: -561339217
+      FONDO_OPCIONES_76: 1242765217
+      FONDO_OPCIONES_77: -1214793424
+      FONDO_OPCIONES_78: -2120852114
+      FONDO_OPCIONES_79: -523488692
+      FONDO_OPCIONES_8: 263415781
+      FONDO_OPCIONES_80: 1914263028
+      FONDO_OPCIONES_81: -1042557667
+      FONDO_OPCIONES_82: -494031153
+      FONDO_OPCIONES_83: -342902082
+      FONDO_OPCIONES_9: -898526921
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
