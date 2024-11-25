@@ -12,6 +12,8 @@ public class ScriptEnemigo : MonoBehaviour
     Vector2 pantallaMax;
     Vector2 direccionAleatoria;
 
+    private int siguentePantalla;
+
     void Start()
     {
         _rigidbody2D = GetComponent<Rigidbody2D>();
