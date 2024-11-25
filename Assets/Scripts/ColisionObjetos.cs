@@ -22,14 +22,12 @@ public class ColisionObjetos : MonoBehaviour
     {
         if (collision.CompareTag("Enemy")) //si colisiona con pj nos lleva a MapaDeCombate
         {
-           SceneManager.LoadScene("ScenaMuerte");
-        }//else if (collision.CompareTag("Enemy")){
-        //    Debug.Log("Colisión con un enemigo.");
-        //}
-        else //nos manda al siguiente mapa
-        {
-           SceneManager.LoadScene(siguentePantalla);
+           SceneManager.LoadScene("ScenaLluita");
         }
+        //else //nos manda al siguiente mapa
+        //{
+        //   SceneManager.LoadScene(siguentePantalla);
+        //}
 
         
 
