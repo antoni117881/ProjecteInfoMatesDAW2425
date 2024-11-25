@@ -44,12 +44,12 @@ public class ScriptEnemigo : MonoBehaviour
         //LimitarPosicionDentroDeCamara();
     }
 
-    IEnumerator MoverAleatoriamente()
-    {
-        _rigidbody2D.velocity = _direccionAleatoria * _vel;
-        CambiarSpriteDireccion();
-        LimitarPosicionDentroDeCamara();
-    }
+    //IEnumerator MoverAleatoriamente()
+    //{
+    //    _rigidbody2D.velocity = _direccionAleatoria * _vel;
+    //    CambiarSpriteDireccion();
+    //    LimitarPosicionDentroDeCamara();
+    //}
 
     private IEnumerator MoverAleatoriamente()
     {
