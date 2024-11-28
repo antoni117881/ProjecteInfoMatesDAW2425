@@ -384,7 +384,7 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 2090972525
+  m_SortingLayerID: -223080249
   m_SortingLayer: 3
   m_SortingOrder: 0
   m_Sprite: {fileID: 198853935, guid: d32bd1394d7b2774b83533b55a888fa7, type: 3}
@@ -3600,7 +3600,7 @@ TilemapCollider2D:
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 4294967295
   m_ExcludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -3637,10 +3637,9 @@ GameObject:
   - component: {fileID: 2100990930}
   - component: {fileID: 2100990931}
   - component: {fileID: 2100990932}
-  - component: {fileID: 2100990933}
   m_Layer: 0
   m_Name: PERSONAJE_NORMAL-_0
-  m_TagString: Player
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3683,7 +3682,7 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 2090972525
+  m_SortingLayerID: -223080249
   m_SortingLayer: 3
   m_SortingOrder: 0
   m_Sprite: {fileID: 2067687527, guid: 800c42f9bee25aa47be81479cdbb4399, type: 3}
@@ -3763,7 +3762,7 @@ BoxCollider2D:
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 4294967295
   m_ExcludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -3780,7 +3779,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0.04172192, y: 0.016688645}
@@ -3796,18 +3795,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.2662904, y: 0.35973442}
   m_EdgeRadius: 0
---- !u!114 &2100990933
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2100990927}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fc31b6ded7be30f4ebbfcfb12517abcd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
