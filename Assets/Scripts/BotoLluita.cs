@@ -28,7 +28,7 @@ public class BotoLluita : MonoBehaviour
     public float tiempoInicial = 5f;
     public float tiempoRestante;
     private bool temporizadorEnMarcha = false;
-
+    public Scriptlluita1 scriptlluita1 ; 
 
     void Start()
     {
@@ -42,6 +42,7 @@ public class BotoLluita : MonoBehaviour
         vidasJuga = 3 ;
         vidasEnemi = 3;
         Temporizador.text = "";
+        scriptlluita1 = GetComponent<Scriptlluita1>(); 
 }   
 
     public void OcultarBotones()
@@ -161,6 +162,7 @@ private void GenerarOperacion()
                 VidasEnemic.text = $"vidas x {vidasEnemi}";
                 GenerarOperacion();
                 IniciarTemporizador();
+                scriptlluita1.MoverEnemic();
             }
             else
             {
@@ -169,6 +171,7 @@ private void GenerarOperacion()
                 VidasJugador.text = $"vidas x {vidasJuga}";
                 GenerarOperacion();
                 IniciarTemporizador();
+                scriptlluita1.MoverJugador();
             }
         }
         else
