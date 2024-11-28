@@ -8,6 +8,7 @@ public class ScriptPersonatgeJugador : MonoBehaviour
 {
     private Rigidbody2D _rigidbody2D;
     private float _vel = 6;  // variavle parala velocidad 
+
     void Start()   
     {
         _rigidbody2D =GetComponent<Rigidbody2D>();
@@ -28,8 +29,12 @@ public class ScriptPersonatgeJugador : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
+
         if (collision.CompareTag("Enemy")) //si colisiona con pj nos lleva a MapaDeCombate
         {
+            DadesGlobalsLluita.setEnemigoActual(collision.gameObject);
+            DadesGlobalsLluita.setposicioEnemigo(collision.gameObject.transform.position);
+            DadesGlobalsLluita.setposicioJugadr(this.gameObject.transform.position);
             SceneManager.LoadScene("ScenaLluita");
         }
         //else //nos manda al siguiente mapa
