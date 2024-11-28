@@ -37,8 +37,12 @@ public class ScriptPersonatgeJugador : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
+
         if (collision.CompareTag("Enemy")) //si colisiona con pj nos lleva a MapaDeCombate
         {
+            DadesGlobalsLluita.setEnemigoActual(collision.gameObject);
+            DadesGlobalsLluita.setposicioEnemigo(collision.gameObject.transform.position);
+            DadesGlobalsLluita.setposicioJugadr(this.gameObject.transform.position);
             SceneManager.LoadScene("ScenaLluita");
         }
         
