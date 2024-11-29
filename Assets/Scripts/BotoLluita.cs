@@ -4,6 +4,7 @@ using UnityEngine;
 using TMPro;
 using UnityEngine.UI;
 using Unity.VisualScripting;
+using UnityEngine.SceneManagement;
 
 
 public class BotoLluita : MonoBehaviour
@@ -176,7 +177,11 @@ private void GenerarOperacion()
         }
         else
         {
-            resultadoText.text = "Por favor, ingresa un número válido.";
+            resultadoText.text = "Por favor, ingresa un número ";
+        }
+        if(vidasJuga == 0)
+        {
+            SceneManager.LoadScene("ScenaMuerte");
         }
     }
 }

@@ -1224,6 +1224,7 @@ MonoBehaviour:
   vidasEnemi: 0
   tiempoInicial: 30
   tiempoRestante: 0
+  scriptlluita1: {fileID: 0}
 --- !u!1 &496055661
 GameObject:
   m_ObjectHideFlags: 0
@@ -1665,6 +1666,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Jugador: {fileID: 1257190034}
+  Enemic: {fileID: 0}
   distanciaMovimiento: 0.5
   velocidadMovimiento: 2
 --- !u!1 &1401622111
@@ -1823,8 +1825,9 @@ MonoBehaviour:
   Temporizador: {fileID: 2028560807}
   vidasJuga: 0
   vidasEnemi: 0
-  tiempoInicial: 30
+  tiempoInicial: 15
   tiempoRestante: 0
+  scriptlluita1: {fileID: 0}
 --- !u!114 &1401622118
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1851,6 +1854,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Jugador: {fileID: 1257190034}
+  Enemic: {fileID: 1594018104}
   distanciaMovimiento: 0.5
   velocidadMovimiento: 2
 --- !u!1 &1582387574
@@ -2922,6 +2926,7 @@ MonoBehaviour:
   vidasEnemi: 0
   tiempoInicial: 30
   tiempoRestante: 0
+  scriptlluita1: {fileID: 0}
 --- !u!1 &1838742918
 GameObject:
   m_ObjectHideFlags: 0

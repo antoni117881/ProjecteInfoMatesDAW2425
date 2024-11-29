@@ -346,6 +346,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7089f16898fb53b47bef202b1f021c25, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  spriteArriba: {fileID: 0}
+  spriteAbajo: {fileID: 0}
+  spriteIzquierda: {fileID: 0}
+  spriteDerecha: {fileID: 0}
 --- !u!212 &258330621
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3804,4 +3808,4 @@ SceneRoots:
   - {fileID: 1049381645}
   - {fileID: 1822276976}
   - {fileID: 2100990929}
-  - {fileID: 1029635055304171863}
+  - {fileID: 258330622}

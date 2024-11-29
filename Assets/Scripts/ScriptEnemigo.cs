@@ -7,17 +7,21 @@ public class ScriptEnemigo : MonoBehaviour
     private float _vel = 8f;
     private Camera _camara;
     private Vector2 _direccionAleatoria;
+    private SpriteRenderer _spriteRenderer;
+
+    public Sprite spriteArriba;  // Sprite para cuando el enemigo se mueve hacia arriba
+    public Sprite spriteAbajo;  // Sprite para cuando el enemigo se mueve hacia abajo
+    public Sprite spriteIzquierda;  // Sprite para cuando el enemigo se mueve hacia la izquierda
+    public Sprite spriteDerecha;  // Sprite para cuando el enemigo se mueve hacia la derecha
 
     Vector2 pantallaMin;
     Vector2 pantallaMax;
     Vector2 direccionAleatoria;
 
-    
-
     void Start()
     {
         _rigidbody2D = GetComponent<Rigidbody2D>();
-        
+        _spriteRenderer = GetComponent<SpriteRenderer>();  // Obtiene el SpriteRenderer del objeto
 
         pantallaMin = new Vector2(-7.3f, -3.3f);
         pantallaMax = new Vector2(5.3f, 3f);
@@ -34,48 +38,33 @@ public class ScriptEnemigo : MonoBehaviour
         novaPos.y = Mathf.Clamp(novaPos.y, pantallaMin.y, pantallaMax.y);
 
         transform.position = novaPos;
+
+        CambiarSpriteDireccion(); // Llamamos al método que cambia el sprite
     }
 
     void MovimentAleatori()
     {
         direccionAleatoria = new Vector2(Random.Range(-0.5f, 0.5f), Random.Range(-0.5f, 0.5f)).normalized;
-
-        
     }
 
-   
-
-    private IEnumerator MoverAleatoriamente()
+    void CambiarSpriteDireccion()
     {
-        while (true)
+        // Cambia el sprite dependiendo de la dirección del movimiento
+        if (direccionAleatoria.y > 0 && Mathf.Abs(direccionAleatoria.y) > Mathf.Abs(direccionAleatoria.x))
         {
-            _direccionAleatoria = new Vector2(Random.Range(-1f, 1f), Random.Range(-1f, 1f)).normalized;
-            yield return new WaitForSeconds(2f);
+            _spriteRenderer.sprite = spriteArriba; // Movimiento hacia arriba
         }
-    }
-
-    private void CambiarSpriteDireccion()
-    {
-
-       
-
-        float x = Mathf.Clamp(transform.position.x, pantallaMin.x, pantallaMax.x);
-        float y = Mathf.Clamp(transform.position.y, pantallaMin.y, pantallaMax.y);
-
-        Vector2 posicionActual = transform.position;
-
-        if (posicionActual.x < pantallaMin.x || posicionActual.x > pantallaMax.x)
+        else if (direccionAleatoria.y < 0 && Mathf.Abs(direccionAleatoria.y) > Mathf.Abs(direccionAleatoria.x))
         {
-            _direccionAleatoria.x = -_direccionAleatoria.x;
-            posicionActual.x = Mathf.Clamp(posicionActual.x, pantallaMin.x, pantallaMax.x);
+            _spriteRenderer.sprite = spriteAbajo; // Movimiento hacia abajo
         }
-
-        if (posicionActual.y < pantallaMin.y || posicionActual.y > pantallaMax.y)
+        else if (direccionAleatoria.x > 0)
         {
-            _direccionAleatoria.y = -_direccionAleatoria.y;
-            posicionActual.y = Mathf.Clamp(posicionActual.y, pantallaMin.y, pantallaMax.y);
+            _spriteRenderer.sprite = spriteDerecha; // Movimiento hacia la derecha
         }
-
-        transform.position = posicionActual;
+        else if (direccionAleatoria.x < 0)
+        {
+            _spriteRenderer.sprite = spriteIzquierda; // Movimiento hacia la izquierda
+        }
     }
 }
