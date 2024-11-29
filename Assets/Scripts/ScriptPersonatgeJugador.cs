@@ -6,15 +6,23 @@ using UnityEngine.SceneManagement;
 
 public class ScriptPersonatgeJugador : MonoBehaviour
 {
-    private Rigidbody2D _rigidbody2D;
-    private float _vel = 6;  // variavle parala velocidad 
+    private int siguentePantalla;
 
+
+    private Rigidbody2D _rigidbody2D;
+    private float _vel = 6;  // variable parala velocidad 
+    
+    
     void Start()   
     {
         _rigidbody2D =GetComponent<Rigidbody2D>();
+
+
+        //recibe el index de cada mapa("id") +1 para que nos mande al siguente mapa dependiendo de su id 
+        siguentePantalla = SceneManager.GetActiveScene().buildIndex + 1;
     }
 
-    // Update is called once per frame
+    // Update 
     void Update()
     {
         float inputHoritzontal = Input.GetAxisRaw("Horizontal") * _vel;
@@ -37,6 +45,7 @@ public class ScriptPersonatgeJugador : MonoBehaviour
             DadesGlobalsLluita.setposicioJugadr(this.gameObject.transform.position);
             SceneManager.LoadScene("ScenaLluita");
         }
+        
         //else //nos manda al siguiente mapa
         //{
         //   SceneManager.LoadScene(siguentePantalla);
