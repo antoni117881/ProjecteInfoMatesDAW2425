@@ -44,22 +44,22 @@ public class BotoLluita : MonoBehaviour
         VidasEnemic.text = "";
         VidasJugador.text = "";
         vidasJuga = 3;
-        vidasEnemi = 3;
+        vidasEnemi = 5;
         Temporizador.text = "";
         scriptlluita1 = GetComponent<Scriptlluita1>();
         siguentePantalla = SceneManager.GetActiveScene().buildIndex + 1;
 
-        // Recuperar el tag del enemigo desde PlayerPrefs, si no existe asignamos un valor vacío
+        // Recuperar el tag del enemigo desde PlayerPrefs, si no existe asignamos un valor vacï¿½o
         string enemigoTag = PlayerPrefs.GetString("EnemigoTag");
 
 
-        if (string.IsNullOrEmpty(enemigoTag))  // Comprobamos si el tag es nulo o vacío
+        if (string.IsNullOrEmpty(enemigoTag))  // Comprobamos si el tag es nulo o vacï¿½o
         {
-            Debug.LogError("El tag del enemigo no está definido correctamente.");
+            Debug.LogError("El tag del enemigo no estï¿½ definido correctamente.");
         }
     }
 
-    // Función para almacenar el tag del enemigo cuando el jugador lo detecta
+    // Funciï¿½n para almacenar el tag del enemigo cuando el jugador lo detecta
     public void ColisionarConEnemigo(string tagEnemigo)
     {
         enemigoTag = tagEnemigo;  // Guardamos el tag del enemigo
@@ -87,7 +87,7 @@ public class BotoLluita : MonoBehaviour
             }
         }
 
-        // Genera y muestra una operación matemática
+        // Genera y muestra una operaciï¿½n matemï¿½tica
         GenerarOperacion();
     }
 
@@ -133,8 +133,8 @@ public class BotoLluita : MonoBehaviour
 
     private void GenerarOperacion()
     {
-        numero1 = Random.Range(1, 10);
-        numero2 = Random.Range(1, 10);
+        numero1 = Random.Range(10, 40);
+        numero2 = Random.Range(10, 40);
         int tipoOperacion = Random.Range(0, 2);
 
         if (tipoOperacion == 0)
@@ -154,7 +154,7 @@ public class BotoLluita : MonoBehaviour
             resultadoCorrecto = numero1 - numero2;
         }
 
-        textoOperacion.text = $"¿Cuánto es {numero1} {operacion} {numero2}?";
+        textoOperacion.text = $"ï¿½Cuï¿½nto es {numero1} {operacion} {numero2}?";
         textoOperacion.gameObject.SetActive(true);
     }
     //_________________________OPCIONAL___________________________//
@@ -171,8 +171,8 @@ public class BotoLluita : MonoBehaviour
     //    }
     //    else
     //    {
-    //        // Si no encontramos el GameObject, podemos hacer un log de error para depuración
-    //        Debug.LogError("No se encontró el enemigo con el tag: " + enemigoTag);
+    //        // Si no encontramos el GameObject, podemos hacer un log de error para depuraciï¿½n
+    //        Debug.LogError("No se encontrï¿½ el enemigo con el tag: " + enemigoTag);
     //    }
     //}
 
@@ -189,7 +189,7 @@ public class BotoLluita : MonoBehaviour
         {
             if (respuestaJugador == resultadoCorrecto)
             {
-                resultadoText.text = "¡Correcto!";
+                resultadoText.text = "ï¿½Correcto!";
                 vidasEnemi -= 1;
                 VidasEnemic.text = $"vidas x {vidasEnemi}";
                 GenerarOperacion();
@@ -199,7 +199,7 @@ public class BotoLluita : MonoBehaviour
             }
             else
             {
-                resultadoText.text = "¡Has fallado!";
+                resultadoText.text = "ï¿½Has fallado!";
                 vidasJuga -= 1;
                 VidasJugador.text = $"vidas x {vidasJuga}";
                 GenerarOperacion();
@@ -209,7 +209,7 @@ public class BotoLluita : MonoBehaviour
         }
         else
         {
-            resultadoText.text = "Por favor, ingresa un número.";
+            resultadoText.text = "Por favor, ingresa un nï¿½mero.";
         }
 
         if (vidasJuga == 0)

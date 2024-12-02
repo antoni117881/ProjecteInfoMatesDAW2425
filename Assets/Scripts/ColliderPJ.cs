@@ -8,12 +8,14 @@ public class ColliderEnemigos : MonoBehaviour
     public GameObject enemigo1;  // Asignar los enemigos en el Inspector
     public GameObject enemigo2;  // Asignar los enemigos en el Inspector
 
+    
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
         // Detectar si colisiona con un enemigo
         if (collision.gameObject == enemigo1 || collision.gameObject == enemigo2)
         {
-            // Guardar el índice de la escena actual antes de cambiar a ScenaLluita
+            // Guardar el ï¿½ndice de la escena actual antes de cambiar a ScenaLluita
             int escenaActual = SceneManager.GetActiveScene().buildIndex;
             PlayerPrefs.SetInt("EscenaActual", escenaActual);
 
