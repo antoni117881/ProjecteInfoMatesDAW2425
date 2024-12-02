@@ -50,8 +50,9 @@ public class BotoLluita : MonoBehaviour
         siguentePantalla = SceneManager.GetActiveScene().buildIndex + 1;
 
         // Recuperar el tag del enemigo desde PlayerPrefs, si no existe asignamos un valor vacío
-        
         string enemigoTag = PlayerPrefs.GetString("EnemigoTag");
+
+
         if (string.IsNullOrEmpty(enemigoTag))  // Comprobamos si el tag es nulo o vacío
         {
             Debug.LogError("El tag del enemigo no está definido correctamente.");
@@ -156,6 +157,7 @@ public class BotoLluita : MonoBehaviour
         textoOperacion.text = $"¿Cuánto es {numero1} {operacion} {numero2}?";
         textoOperacion.gameObject.SetActive(true);
     }
+    //_________________________OPCIONAL___________________________//
     //public void MuerteEnemigo(string enemigoTag)
     //{
     //    // Intentar encontrar el GameObject del enemigo usando su tag
@@ -193,6 +195,7 @@ public class BotoLluita : MonoBehaviour
                 GenerarOperacion();
                 IniciarTemporizador();
                 scriptlluita1.MoverEnemic();
+                
             }
             else
             {
@@ -216,9 +219,13 @@ public class BotoLluita : MonoBehaviour
         else if (vidasEnemi == 0)
         {
 
+            //OPCIONAL:
+            //MuerteEnemigo(enemigoTag);
+
+
             // Regresar a la escena anterior
             int escenaAnterior = PlayerPrefs.GetInt("EscenaActual");
-            SceneManager.LoadScene(escenaAnterior);
+            SceneManager.LoadScene(escenaAnterior +1);
         }
     }
    
