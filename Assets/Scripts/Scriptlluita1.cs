@@ -12,6 +12,7 @@ public class Scriptlluita1 : MonoBehaviour
     private Vector3 posicionInicialJugador;
     private Vector3 posicionInicialEnemic;
 
+
     void Start()
     {
         // Guardar la posición inicial del objeto

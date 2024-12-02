@@ -1,5 +1,7 @@
 using System.Collections;
 using UnityEngine;
+using UnityEngine.SceneManagement;
+
 
 public class ScriptEnemigo : MonoBehaviour
 {
@@ -13,6 +15,15 @@ public class ScriptEnemigo : MonoBehaviour
     public Sprite spriteAbajo;  // Sprite para cuando el enemigo se mueve hacia abajo
     public Sprite spriteIzquierda;  // Sprite para cuando el enemigo se mueve hacia la izquierda
     public Sprite spriteDerecha;  // Sprite para cuando el enemigo se mueve hacia la derecha
+
+
+    
+
+
+
+
+
+
 
     Vector2 pantallaMin;
     Vector2 pantallaMax;
@@ -67,4 +78,8 @@ public class ScriptEnemigo : MonoBehaviour
             _spriteRenderer.sprite = spriteIzquierda; // Movimiento hacia la izquierda
         }
     }
+
+    
+
+
 }

@@ -3,9 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 using UnityEngine.UI;
-using Unity.VisualScripting;
 using UnityEngine.SceneManagement;
-
 
 public class BotoLluita : MonoBehaviour
 {
@@ -14,9 +12,10 @@ public class BotoLluita : MonoBehaviour
     public GameObject Mochila;
     public GameObject Escapar;
     public GameObject Resposta;
-    public TextMeshProUGUI textoOperacion; // Texto para mostrar la operación
-    public TextMeshProUGUI resultadoText; // Texto para mostrar si es correcto o incorrecto
-    public TMP_InputField respuestaInput; // Campo para ingresar la respuesta
+
+    public TextMeshProUGUI textoOperacion;
+    public TextMeshProUGUI resultadoText;
+    public TMP_InputField respuestaInput;
     public TextMeshProUGUI VidasEnemic;
     public TextMeshProUGUI VidasJugador;
     public TextMeshProUGUI Temporizador;
@@ -29,36 +28,56 @@ public class BotoLluita : MonoBehaviour
     public float tiempoInicial = 5f;
     public float tiempoRestante;
     private bool temporizadorEnMarcha = false;
-    public Scriptlluita1 scriptlluita1 ; 
+    public Scriptlluita1 scriptlluita1;
+
+    private int siguentePantalla;
+
+    // Variable para almacenar el tag del enemigo
+    private string enemigoTag;
 
     void Start()
     {
-
-        resultadoText.gameObject.SetActive(false) ; // hace ivisible el texto 
-        textoOperacion.gameObject.SetActive(false); // HACE INVISIBLEEL TEXTO
+        resultadoText.gameObject.SetActive(false);
+        textoOperacion.gameObject.SetActive(false);
         Resposta.SetActive(false);
         respuestaInput.gameObject.SetActive(false);
         VidasEnemic.text = "";
         VidasJugador.text = "";
-        vidasJuga = 3 ;
+        vidasJuga = 3;
         vidasEnemi = 3;
         Temporizador.text = "";
-        scriptlluita1 = GetComponent<Scriptlluita1>(); 
-}   
+        scriptlluita1 = GetComponent<Scriptlluita1>();
+        siguentePantalla = SceneManager.GetActiveScene().buildIndex + 1;
+
+        // Recuperar el tag del enemigo desde PlayerPrefs, si no existe asignamos un valor vacío
+        
+        string enemigoTag = PlayerPrefs.GetString("EnemigoTag");
+        if (string.IsNullOrEmpty(enemigoTag))  // Comprobamos si el tag es nulo o vacío
+        {
+            Debug.LogError("El tag del enemigo no está definido correctamente.");
+        }
+    }
+
+    // Función para almacenar el tag del enemigo cuando el jugador lo detecta
+    public void ColisionarConEnemigo(string tagEnemigo)
+    {
+        enemigoTag = tagEnemigo;  // Guardamos el tag del enemigo
+        PlayerPrefs.SetString("EnemigoTag", tagEnemigo);  // Guardamos el tag en PlayerPrefs
+    }
 
     public void OcultarBotones()
     {
         if (Lluita != null)
         {
-            Lluita.SetActive(false); // Oculta el botón de lucha
-            Mochila.SetActive(false); // Oculta el botón de Mochila
-            Escapar.SetActive(false); // Oculta el botón de Escapar
-            Resposta.SetActive(true); // hacer que se vea bton de respuesta 
-            respuestaInput.gameObject.SetActive(true); // hacer que se vea el recuadr pra a respuesta 
-            textoOperacion.gameObject.SetActive(true); 
+            Lluita.SetActive(false);
+            Mochila.SetActive(false);
+            Escapar.SetActive(false);
+            Resposta.SetActive(true);
+            respuestaInput.gameObject.SetActive(true);
+            textoOperacion.gameObject.SetActive(true);
             resultadoText.gameObject.SetActive(true);
-            VidasEnemic.text=$"vidas x {vidasEnemi}";
-            VidasJugador.text=$"vidas x {vidasJuga}";
+            VidasEnemic.text = $"vidas x {vidasEnemi}";
+            VidasJugador.text = $"vidas x {vidasJuga}";
             IniciarTemporizador();
 
             if (temporizadorEnMarcha)
@@ -70,6 +89,7 @@ public class BotoLluita : MonoBehaviour
         // Genera y muestra una operación matemática
         GenerarOperacion();
     }
+
     public void IniciarTemporizador()
     {
         tiempoRestante = tiempoInicial;
@@ -84,19 +104,19 @@ public class BotoLluita : MonoBehaviour
         {
             tiempoRestante = 0;
             temporizadorEnMarcha = false;
-            TemporizadorFinalizado(); // Llamada al evento al finalizar
+            TemporizadorFinalizado();
         }
 
-        // Actualizar el texto en pantalla
-        ActualizarTextoTemporizador();
+        ActualizarTextoTemporador();
     }
 
-void ActualizarTextoTemporizador()
+    void ActualizarTextoTemporador()
     {
-        int minutos = Mathf.FloorToInt(tiempoRestante / 60); // Calcula los minutos
-        int segundos = Mathf.FloorToInt(tiempoRestante % 60); // Calcula los segundos
-        Temporizador.text = string.Format("{0:00}:{1:00}", minutos, segundos); // Formato MM:SS
+        int minutos = Mathf.FloorToInt(tiempoRestante / 60);
+        int segundos = Mathf.FloorToInt(tiempoRestante % 60);
+        Temporizador.text = string.Format("{0:00}:{1:00}", minutos, segundos);
     }
+
     void Update()
     {
         if (temporizadorEnMarcha)
@@ -107,24 +127,22 @@ void ActualizarTextoTemporizador()
 
     void TemporizadorFinalizado()
     {
-        //  Debug.Log("¡Se te ha acabo el tiempo ");
-        // Aquí puedes añadir lo que pasa al finalizar el temporizador.
+        // Se ejecuta cuando el tiempo se ha agotado
     }
 
-
-private void GenerarOperacion()
+    private void GenerarOperacion()
     {
-        // Generar números aleatorios y tipo de operación
-        numero1 = Random.Range(1, 10); // Números entre 1 y 100
+        numero1 = Random.Range(1, 10);
         numero2 = Random.Range(1, 10);
-        int tipoOperacion = Random.Range(0, 2); // 0 = suma, 1 = resta
+        int tipoOperacion = Random.Range(0, 2);
 
         if (tipoOperacion == 0)
         {
             operacion = "+";
             resultadoCorrecto = numero1 + numero2;
         }
-        else{
+        else
+        {
             operacion = "-";
             if (numero2 > numero1)
             {
@@ -132,21 +150,32 @@ private void GenerarOperacion()
                 numero1 = numero2;
                 numero2 = numAux;
             }
-          //  Debug.Log("tipoOperacion " + tipoOperacion + "numero1=" + numero1 + " - numero2=" + numero2);
             resultadoCorrecto = numero1 - numero2;
         }
-        
-        
-    
 
-        // Muestra la operación en pantalla
-        textoOperacion.text = $"¿Cuánto es {numero1} {operacion} {numero2} ?";
-        textoOperacion.gameObject.SetActive(true); // hace   que el texto sea visible
+        textoOperacion.text = $"¿Cuánto es {numero1} {operacion} {numero2}?";
+        textoOperacion.gameObject.SetActive(true);
     }
+    //public void MuerteEnemigo(string enemigoTag)
+    //{
+    //    // Intentar encontrar el GameObject del enemigo usando su tag
+    //    GameObject enemigo = GameObject.FindWithTag(enemigoTag);
+
+    //    if (enemigo != null)
+    //    {
+    //        // Desactivar el GameObject del enemigo
+    //        enemigo.SetActive(false);
+    //        Debug.Log("Enemigo desactivado: " + enemigoTag);
+    //    }
+    //    else
+    //    {
+    //        // Si no encontramos el GameObject, podemos hacer un log de error para depuración
+    //        Debug.LogError("No se encontró el enemigo con el tag: " + enemigoTag);
+    //    }
+    //}
 
     public void VerificarRespuesta()
     {
-        // Verifica si el jugador ingresó la respuesta correcta
         if (string.IsNullOrEmpty(respuestaInput.text))
         {
             resultadoText.text = "Por favor, ingresa una respuesta.";
@@ -159,7 +188,7 @@ private void GenerarOperacion()
             if (respuestaJugador == resultadoCorrecto)
             {
                 resultadoText.text = "¡Correcto!";
-                vidasEnemi = vidasEnemi - 1; 
+                vidasEnemi -= 1;
                 VidasEnemic.text = $"vidas x {vidasEnemi}";
                 GenerarOperacion();
                 IniciarTemporizador();
@@ -168,7 +197,7 @@ private void GenerarOperacion()
             else
             {
                 resultadoText.text = "¡Has fallado!";
-                vidasJuga = vidasJuga - 1;
+                vidasJuga -= 1;
                 VidasJugador.text = $"vidas x {vidasJuga}";
                 GenerarOperacion();
                 IniciarTemporizador();
@@ -177,12 +206,21 @@ private void GenerarOperacion()
         }
         else
         {
-            resultadoText.text = "Por favor, ingresa un número ";
+            resultadoText.text = "Por favor, ingresa un número.";
         }
-        if(vidasJuga == 0)
+
+        if (vidasJuga == 0)
         {
             SceneManager.LoadScene("ScenaMuerte");
         }
-    }
-}
+        else if (vidasEnemi == 0)
+        {
 
+            // Regresar a la escena anterior
+            int escenaAnterior = PlayerPrefs.GetInt("EscenaActual");
+            SceneManager.LoadScene(escenaAnterior);
+        }
+    }
+   
+
+}
