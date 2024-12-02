@@ -6,6 +6,11 @@ TagManager:
   tags:
   - Enemy
   - Mapa
+  - 'enemigo1 '
+  - enemigo2
+  - Enemigo1
+  - Enemigo2
+  - Enemic
   layers:
   - Default
   - TransparentFX
