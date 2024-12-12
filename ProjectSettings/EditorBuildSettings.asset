@@ -15,9 +15,6 @@ EditorBuildSettings:
     path: Assets/Scenes/MapaDos.unity
     guid: eb4e434b643c1ca45b0aaacfdbbcdfc4
   - enabled: 1
-    path: Assets/Scenes/MapaTres.unity
-    guid: 00839e8188dcfa9419abaee5bbec3c98
-  - enabled: 1
     path: Assets/Scenes/ScenaFinal.unity
     guid: 9d22b0a3b88fa2146a4477867220d394
   - enabled: 1

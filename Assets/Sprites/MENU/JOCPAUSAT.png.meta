@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 37457676057fe294c8b3361414d33680
+guid: 7dae0a677492ff14da3720e9a01dc43a
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -95,70 +95,7 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites:
-    - serializedVersion: 2
-      name: BOTONES_SIN_FONDO_0
-      rect:
-        serializedVersion: 2
-        x: 892
-        y: 743
-        width: 66
-        height: 67
-      alignment: 9
-      pivot: {x: 0.5, y: 0.47380498}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2844c5c32a03d654aac6fcf18648daf8
-      internalID: -2060999774
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BOTONES_SIN_FONDO_1
-      rect:
-        serializedVersion: 2
-        x: 658
-        y: 382
-        width: 63
-        height: 73
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 5, z: 0, w: 4}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 718eb5f9eb3bacb459c551b8f246b645
-      internalID: 856137243
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BOTONES_SIN_FONDO_2
-      rect:
-        serializedVersion: 2
-        x: 186
-        y: 170
-        width: 65
-        height: 65
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 66ae4f954ad7c08428489cdfb339b8ba
-      internalID: 1357211323
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
+    sprites: []
     outline: []
     physicsShape: []
     bones: []
@@ -169,10 +106,7 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable:
-      BOTONES_SIN_FONDO_0: -2060999774
-      BOTONES_SIN_FONDO_1: 856137243
-      BOTONES_SIN_FONDO_2: 1357211323
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
