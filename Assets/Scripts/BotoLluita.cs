@@ -154,7 +154,7 @@ public class BotoLluita : MonoBehaviour
             resultadoCorrecto = numero1 - numero2;
         }
 
-        textoOperacion.text = $"�Cu�nto es {numero1} {operacion} {numero2}?";
+        textoOperacion.text = $"Cuanto es {numero1} {operacion} {numero2}?";
         textoOperacion.gameObject.SetActive(true);
     }
     //_________________________OPCIONAL___________________________//
@@ -199,7 +199,7 @@ public class BotoLluita : MonoBehaviour
             }
             else
             {
-                resultadoText.text = "�Has fallado!";
+                resultadoText.text = "Has fallado!";
                 vidasJuga -= 1;
                 VidasJugador.text = $"vidas x {vidasJuga}";
                 GenerarOperacion();
@@ -209,7 +209,7 @@ public class BotoLluita : MonoBehaviour
         }
         else
         {
-            resultadoText.text = "Por favor, ingresa un n�mero.";
+            resultadoText.text = "Por favor, ingresa un numero.";
         }
 
         if (vidasJuga == 0)
