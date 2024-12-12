@@ -3,6 +3,7 @@ using UnityEngine.SceneManagement;
 
 public class ScriptBootons : MonoBehaviour
 {
+    private bool juegoPausado = false;
     void Start()
     {
         if (!PlayerPrefs.HasKey("UltimaEscena"))
@@ -48,7 +49,10 @@ public class ScriptBootons : MonoBehaviour
             string ultimaEscena = PlayerPrefs.GetString("UltimaEscena");
             if (!string.IsNullOrEmpty(ultimaEscena) && ultimaEscena != SceneManager.GetActiveScene().name)
             {
+                Time.timeScale = 1f; // El tiempo vuelve a la normalidad
+                juegoPausado = false;
                 SceneManager.LoadScene(ultimaEscena);
+                
             }
         }
     }
