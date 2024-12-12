@@ -1,61 +1,59 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
-using UnityEngine.UI;
-using Unity.VisualScripting;
 using UnityEngine.SceneManagement;
-
 
 public class BarraOpciones : MonoBehaviour
 {
-
-
-    
-    // _______________  BOTON PAUSA_______________ // 
     private bool juegoPausado = false;
-    public TextMeshProUGUI textoPausa; // Referencia al texto UI que mostrará el mensaje
+    public TextMeshProUGUI textoPausa;
+    public GameObject panelConfirmacionSalir;
+    public GameObject panelpausa;
 
-    // Panel de confirmación de salida
-    public GameObject panelConfirmacionSalir; // Panel con los botones "Sí" y "No"
-
-    // Método para pausar el juego y mostrar texto
     public void PausarJuego()
     {
         if (juegoPausado)
         {
-            Time.timeScale = 1f; // Reanudar el juego
+            Time.timeScale = 1f;
             juegoPausado = false;
-            textoPausa.gameObject.SetActive(false); // Ocultar el texto
+            panelpausa.SetActive(false);
         }
         else
         {
-            Time.timeScale = 0f; // Pausar el juego
+            Time.timeScale = 0f;
             juegoPausado = true;
-            textoPausa.text = "El juego se ha pausado"; // Actualizar el mensaje
-            textoPausa.gameObject.SetActive(true); // Mostrar el texto
+            panelpausa.SetActive(true);
         }
     }
 
-    // Mostrar el panel de confirmación cuando se intenta salir del juego
-    public void MostrarPanelConfirmacion()
+    public void IrAControles()
     {
-        panelConfirmacionSalir.SetActive(true); // Activar el panel de confirmación
-        Time.timeScale = 0f; // Pausar el juego al mostrar el panel
+        PlayerPrefs.SetString("UltimaEscena", SceneManager.GetActiveScene().name);
+        Time.timeScale = 1f;
+        SceneManager.LoadScene("EscenaControles");
     }
 
-    // Si el jugador hace clic en "Sí", volver al menú principal
+    public void VolverAtras()
+    {
+        Time.timeScale = 1f;
+        SceneManager.LoadScene(PlayerPrefs.GetString("UltimaEscena"));
+    }
+
+    public void MostrarPanelConfirmacion()
+    {
+        panelConfirmacionSalir.SetActive(true);
+        Time.timeScale = 0f;
+    }
+
     public void VolverAlMenu()
     {
         PlayerPrefs.SetString("UltimaEscena", SceneManager.GetActiveScene().name);
         SceneManager.LoadScene("ScenaMenu");
     }
 
-    // Si el jugador hace clic en "No", cerrar el panel y continuar con el juego
     public void CancelarSalida()
     {
-        panelConfirmacionSalir.SetActive(false); // Desactivar el panel de confirmación
-        Time.timeScale = 1f; // Reanudar el juego
+        panelConfirmacionSalir.SetActive(false);
+        Time.timeScale = 1f;
     }
 }
-    
