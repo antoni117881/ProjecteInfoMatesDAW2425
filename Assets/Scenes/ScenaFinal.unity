@@ -2192,6 +2192,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemigo1: {fileID: 3154759705343698620}
   enemigo2: {fileID: 0}
+  FondoPelea1: {fileID: 0}
+  FondoPelea2: {fileID: 0}
+  FondoPelea3: {fileID: 7798508282473318385, guid: 0ada8cbbabea0e745b3b71f4020bb17d, type: 3}
 --- !u!1 &561410962
 GameObject:
   m_ObjectHideFlags: 0
@@ -9169,7 +9172,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3308466063228958387, guid: d6ffaa79d81f4dc4893ef662ff984298, type: 3}
       propertyPath: m_TagString
-      value: Enemigo2
+      value: EnemigoFinal
       objectReference: {fileID: 0}
     - target: {fileID: 4170675132895948797, guid: d6ffaa79d81f4dc4893ef662ff984298, type: 3}
       propertyPath: enemigo1

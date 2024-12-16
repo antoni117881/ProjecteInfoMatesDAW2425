@@ -13,6 +13,7 @@ TagManager:
   - Enemic
   - Enemigo3
   - EnemigoFinal
+  - mapa1
   layers:
   - Default
   - TransparentFX
