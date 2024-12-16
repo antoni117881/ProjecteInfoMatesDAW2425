@@ -47,7 +47,7 @@ public class BotoLluita : MonoBehaviour
         vidasEnemi = 5;
         Temporizador.text = "";
         scriptlluita1 = GetComponent<Scriptlluita1>();
-        siguentePantalla = SceneManager.GetActiveScene().buildIndex + 1;
+        //siguentePantalla = SceneManager.GetActiveScene().buildIndex + 1;
 
         // Recuperar el tag del enemigo desde PlayerPrefs, si no existe asignamos un valor vac�o
         string enemigoTag = PlayerPrefs.GetString("EnemigoTag");

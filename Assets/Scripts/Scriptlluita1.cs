@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Scriptlluita1 : MonoBehaviour
 {
-    // Start is called before the first frame update
+   
     public GameObject Jugador;// El GameObject "Jugador" que deseas mover
     public GameObject Enemic1;
     public GameObject Enemic2;

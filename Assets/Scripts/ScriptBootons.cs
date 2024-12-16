@@ -44,16 +44,11 @@ public class ScriptBootons : MonoBehaviour
 
     public void RetrocederEscena()
     {
-        if (PlayerPrefs.HasKey("UltimaEscena"))
-        {
-            string ultimaEscena = PlayerPrefs.GetString("UltimaEscena");
-            if (!string.IsNullOrEmpty(ultimaEscena) && ultimaEscena != SceneManager.GetActiveScene().name)
-            {
-                Time.timeScale = 1f; // El tiempo vuelve a la normalidad
-                juegoPausado = false;
-                SceneManager.LoadScene(ultimaEscena);
-                
-            }
-        }
+        Time.timeScale = 1f; // El tiempo vuelve a la normalidad
+        juegoPausado = false;
+        int escenaAnterior = PlayerPrefs.GetInt("EscenaActual");
+        SceneManager.LoadScene(escenaAnterior );
+
+           
     }
 }

@@ -869,6 +869,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemigo1: {fileID: 480869152}
   enemigo2: {fileID: 0}
+  FondoPelea1: {fileID: 0}
+  FondoPelea2: {fileID: 1011706767185943580, guid: 311101f214c4c0c43b82c5119ea8e155, type: 3}
+  FondoPelea3: {fileID: 0}
 --- !u!61 &374866089
 BoxCollider2D:
   m_ObjectHideFlags: 0
