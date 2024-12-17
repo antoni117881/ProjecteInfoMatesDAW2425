@@ -44,7 +44,7 @@ public class BotoLluita : MonoBehaviour
         VidasEnemic.text = "";
         VidasJugador.text = "";
         vidasJuga = 3;
-        vidasEnemi = 5;
+        vidasEnemi = 1;
         Temporizador.text = "";
         scriptlluita1 = GetComponent<Scriptlluita1>();
         //siguentePantalla = SceneManager.GetActiveScene().buildIndex + 1;
@@ -91,6 +91,9 @@ public class BotoLluita : MonoBehaviour
         GenerarOperacion();
     }
 
+    
+
+
     public void IniciarTemporizador()
     {
         tiempoRestante = tiempoInicial;
@@ -103,9 +106,13 @@ public class BotoLluita : MonoBehaviour
 
         if (tiempoRestante <= 0)
         {
+            
             tiempoRestante = 0;
+            
             temporizadorEnMarcha = false;
+            
             TemporizadorFinalizado();
+            
         }
 
         ActualizarTextoTemporador();
@@ -123,13 +130,27 @@ public class BotoLluita : MonoBehaviour
         if (temporizadorEnMarcha)
         {
             ActualizarTemporizador();
+            
         }
     }
 
     void TemporizadorFinalizado()
     {
-        // Se ejecuta cuando el tiempo se ha agotado
+        IniciarTemporizador();
+        vidasJuga -= 1;
+        VidasJugador.text = $"vidas x {vidasJuga}";
+        if (vidasJuga == 0)
+        {
+            SceneManager.LoadScene("ScenaMuerte");
+
+        }
     }
+
+
+
+
+
+
 
     private void GenerarOperacion()
     {
@@ -157,24 +178,7 @@ public class BotoLluita : MonoBehaviour
         textoOperacion.text = $"�Cu�nto es {numero1} {operacion} {numero2}?";
         textoOperacion.gameObject.SetActive(true);
     }
-    //_________________________OPCIONAL___________________________//
-    //public void MuerteEnemigo(string enemigoTag)
-    //{
-    //    // Intentar encontrar el GameObject del enemigo usando su tag
-    //    GameObject enemigo = GameObject.FindWithTag(enemigoTag);
-
-    //    if (enemigo != null)
-    //    {
-    //        // Desactivar el GameObject del enemigo
-    //        enemigo.SetActive(false);
-    //        Debug.Log("Enemigo desactivado: " + enemigoTag);
-    //    }
-    //    else
-    //    {
-    //        // Si no encontramos el GameObject, podemos hacer un log de error para depuraci�n
-    //        Debug.LogError("No se encontr� el enemigo con el tag: " + enemigoTag);
-    //    }
-    //}
+   
 
     public void VerificarRespuesta()
     {
@@ -189,7 +193,7 @@ public class BotoLluita : MonoBehaviour
         {
             if (respuestaJugador == resultadoCorrecto)
             {
-                resultadoText.text = "�Correcto!";
+                resultadoText.text = "Correcto!";
                 vidasEnemi -= 1;
                 VidasEnemic.text = $"vidas x {vidasEnemi}";
                 GenerarOperacion();
@@ -199,7 +203,7 @@ public class BotoLluita : MonoBehaviour
             }
             else
             {
-                resultadoText.text = "�Has fallado!";
+                resultadoText.text = "Has fallado!";
                 vidasJuga -= 1;
                 VidasJugador.text = $"vidas x {vidasJuga}";
                 GenerarOperacion();
@@ -215,13 +219,10 @@ public class BotoLluita : MonoBehaviour
         if (vidasJuga == 0)
         {
             SceneManager.LoadScene("ScenaMuerte");
+
         }
         else if (vidasEnemi == 0)
         {
-
-            //OPCIONAL:
-            //MuerteEnemigo(enemigoTag);
-
 
             // Regresar a la escena anterior
             int escenaAnterior = PlayerPrefs.GetInt("EscenaActual");
