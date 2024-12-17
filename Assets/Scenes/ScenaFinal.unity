@@ -4719,8 +4719,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   leverHandle: {fileID: 1392185597}
-  targetRotation: {x: 45, y: 0, z: 0}
-  rotationSpeed: 5
+  targetRotation: {x: 0, y: 180, z: 0}
+  rotationSpeed: 300
   interactionSprite: {fileID: 784019386}
 --- !u!1 &1404583418
 GameObject:
