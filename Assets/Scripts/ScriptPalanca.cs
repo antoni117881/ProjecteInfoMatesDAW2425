@@ -32,7 +32,8 @@ public class ScriptPalanca : MonoBehaviour
         // Detectar si el jugador presiona "E" y está tocando la palanca
         if (isPlayerTouching && Input.GetKeyDown(KeyCode.E))
         {
-            isActivated = isActivated; // Alternar el estado de la palanca
+            isActivated = true; // Alternar el estado de la palanca
+            Debug.Log(" APRIETA LA E");
         }
 
         // Rotar la palanca hacia la posición objetivo
@@ -42,7 +43,9 @@ public class ScriptPalanca : MonoBehaviour
                 leverHandle.localRotation,
                 Quaternion.Euler(targetRotation),
                 Time.deltaTime * rotationSpeed
+                
             );
+            Debug.Log(" ¡ ESTA ACTIVADO");
         }
         else
         {
