@@ -5,12 +5,12 @@ public class EnemigoDisplay : MonoBehaviour
     public GameObject enemigo1Prefab;  // Asigna el prefab del enemigo 1 en el Inspector
     public GameObject enemigo2Prefab;  // Asigna el prefab del enemigo 2 en el Inspector
     public GameObject enemigo3Prefab; 
-     public GameObject enemigoFinalPrefab; 
+    public GameObject enemigoFinalPrefab; 
     public GameObject enemicGeneral; 
 
     void Start()
     {
-        // Obtener el tag del enemigo que colision� en la escena anterior
+        // Obtener el tag del enemigo que colision en la escena anterior
         string enemigoTag = PlayerPrefs.GetString("EnemigoTag");
 
         // Cargar el contenido del prefab en el GameObject 
@@ -42,8 +42,6 @@ public class EnemigoDisplay : MonoBehaviour
         GameObject nuevoEnemigo = Instantiate(prefab, enemicGeneral.transform);
 
 
-        //nuevoEnemigo.transform.localPosition = Vector3.zero;
-        //nuevoEnemigo.transform.localRotation = Quaternion.identity;
-        //nuevoEnemigo.transform.localScale = Vector3.one;
+        
     }
 }

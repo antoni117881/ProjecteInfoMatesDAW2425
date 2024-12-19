@@ -47,7 +47,7 @@ public class ScriptPalanca : MonoBehaviour
 
             );
             Puerta.SetActive(false);
-            Debug.Log(" ¡ ESTA ACTIVADO");
+            
         }
         else
         {
@@ -73,15 +73,7 @@ public class ScriptPalanca : MonoBehaviour
             {
                 interactionSprite.SetActive(true);
             }
-            if (collision.gameObject.CompareTag("Tocar"))
-            {
-                Debug.Log("jugador toco para ir a otra scena ");
-                isPlayerTouching = true;
-                PlayerPrefs.SetString("UltimaEscena", SceneManager.GetActiveScene().name);
-                SceneManager.LoadScene("ScenaFinal");
-
-
-            }
+            
         }
     }
 

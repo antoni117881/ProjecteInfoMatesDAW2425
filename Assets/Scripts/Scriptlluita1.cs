@@ -122,33 +122,7 @@ public class Scriptlluita1 : MonoBehaviour
             yield return null;
         }
     }
-    //public void MoverEnemic2()
-    //{
-    //    if (Enemic2 != null)
-    //    {
-    //        // Inicia la corutina para mover al Enemic
-    //        StartCoroutine(MoverIdaYVueltaEnemic2());
-    //    }
-    //    else
-    //    {
-    //        Debug.LogError("El objeto Enemic no está asignado en el script.");
-    //    }
-    //}
-    //private IEnumerator MoverIdaYVueltaEnemic2()
-    //{
-    //    Vector3 posicionOriginal = Enemic2.transform.position;
-
-    //    // Mover a la derecha
-    //    Vector3 posicionDerecha = posicionOriginal + Vector3.right * distanciaMovimiento;
-    //    yield return MoverHacia2(posicionDerecha);
-
-    //    // Mover a la izquierda
-    //    Vector3 posicionIzquierda = posicionOriginal + Vector3.left * distanciaMovimiento;
-    //    yield return MoverHacia2(posicionIzquierda);
-
-    //    // Volver a la posición original
-    //    yield return MoverHacia2(posicionOriginal);
-    //}
+    
     private IEnumerator MoverHacia2(Vector3 destino)
     {
         while (Vector3.Distance(Enemic2.transform.position, destino) > 0.01f)

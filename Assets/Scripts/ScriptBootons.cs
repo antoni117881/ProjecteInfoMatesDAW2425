@@ -4,6 +4,7 @@ using UnityEngine.SceneManagement;
 public class ScriptBootons : MonoBehaviour
 {
     private bool juegoPausado = false;
+    // Funcionamiento de Botones 
     void Start()
     {
         if (!PlayerPrefs.HasKey("UltimaEscena"))
@@ -14,6 +15,7 @@ public class ScriptBootons : MonoBehaviour
 
     public void AnarAPntallaInicial()
     {
+
         PlayerPrefs.SetString("UltimaEscena", SceneManager.GetActiveScene().name);
         SceneManager.LoadScene("MapaUno");
     }
@@ -22,6 +24,9 @@ public class ScriptBootons : MonoBehaviour
     {
         PlayerPrefs.SetString("UltimaEscena", SceneManager.GetActiveScene().name);
         SceneManager.LoadScene("ScenaOpcions");
+
+        int escenaActualControles = SceneManager.GetActiveScene().buildIndex;
+        PlayerPrefs.SetInt("EscenaActual", escenaActualControles);
     }
 
     public void AnaraASortir()
@@ -44,11 +49,14 @@ public class ScriptBootons : MonoBehaviour
 
     public void RetrocederEscena()
     {
-        Time.timeScale = 1f; // El tiempo vuelve a la normalidad
+
+        Time.timeScale = 1f; // El tiempo vuelve a la normalidad 
         juegoPausado = false;
+        
         int escenaAnterior = PlayerPrefs.GetInt("EscenaActual");
         SceneManager.LoadScene(escenaAnterior );
 
            
     }
+   
 }

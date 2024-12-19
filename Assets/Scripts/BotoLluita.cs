@@ -74,7 +74,7 @@ public class BotoLluita : MonoBehaviour
     {
         if (Lluita != null)
         {
-            //Lluita.SetActive(false);
+            
             Mochila.SetActive(false);
             Escapar.SetActive(false);
             Resposta.SetActive(true);
@@ -91,7 +91,7 @@ public class BotoLluita : MonoBehaviour
             }
         }
 
-        // Genera y muestra una operaci�n matem�tica
+        // Genera y muestra una operacion matematica
         GenerarOperacion();
     }
 
@@ -132,7 +132,7 @@ public class BotoLluita : MonoBehaviour
     void Update()
     {
         if(jugadorRecibeDaño){
-           //vidasJuga--;
+          
             ActualizarVidasJugador();
         }
         if (temporizadorEnMarcha)
@@ -150,15 +150,8 @@ public class BotoLluita : MonoBehaviour
         if (vidasJuga == 0)
         {
             SceneManager.LoadScene("ScenaMuerte");
-
         }
     }
-
-
-
-
-
-
 
     private void GenerarOperacion()
     {
@@ -213,11 +206,8 @@ public class BotoLluita : MonoBehaviour
                 
                 resultadoText.text = "HAS FALLAT!";
                 vidasJuga -= 1;
-                jugadorRecibeDaño = true;
-                //ActualizarVidasJugador();
-                VidasJugador.text = $"vidas x {vidasJuga}";
-                //ActualizarCorazones(corazonesJugador, vidasJuga);
-                        
+                jugadorRecibeDaño = true;               
+                VidasJugador.text = $"vidas x {vidasJuga}";     
                 GenerarOperacion();
                 IniciarTemporizador();
                 scriptlluita1.MoverJugador();
@@ -227,11 +217,9 @@ public class BotoLluita : MonoBehaviour
         {
             resultadoText.text = "Introdueix un número";
         }
-
         if (vidasJuga == 0)
         {
             SceneManager.LoadScene("ScenaMuerte");
-
         }
         else if (vidasEnemi == 0)
         {
@@ -245,22 +233,17 @@ public class BotoLluita : MonoBehaviour
     {
         for (int i = 0; i < corazones.Count; i++)
         {
-            corazones[i].enabled = false /*i < vidasRestantes*/;
+            corazones[i].enabled = false /* i < vidasRestantes*/;
         }
     }
 
     private void ActualizarVidasJugador(){
-        
         for(int i =0; i < vidasJugador.Count; i++){
             if(i < vidasJuga){
             vidasJugador[i].SetActive(false);
-            //idx++;
-            //break;
-            
             } 
         }
         jugadorRecibeDaño = false;
         Debug.LogError("El tag del enemigo no está definido correctamente.");
-       // Debug.log("sale de la funcion");
     }
 }
