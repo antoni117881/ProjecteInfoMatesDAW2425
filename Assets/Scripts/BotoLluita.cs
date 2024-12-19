@@ -49,7 +49,7 @@ public class BotoLluita : MonoBehaviour
         VidasEnemic.text = "";
         VidasJugador.text = "";
         vidasJuga = 3;
-        vidasEnemi = 1;
+        vidasEnemi = 5;
         Temporizador.text = "";
         scriptlluita1 = GetComponent<Scriptlluita1>();
         //siguentePantalla = SceneManager.GetActiveScene().buildIndex + 1;
