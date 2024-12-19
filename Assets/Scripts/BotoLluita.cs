@@ -35,6 +35,11 @@ public class BotoLluita : MonoBehaviour
     // Variable para almacenar el tag del enemigo
     private string enemigoTag;
 
+    // corazones
+    public List<Image> corazonesJugador;
+    public List<GameObject> vidasJugador;
+    public List<Image> corazonesEnemigo;
+    public bool jugadorRecibeDaño = false;
     void Start()
     {
         resultadoText.gameObject.SetActive(false);
@@ -49,13 +54,12 @@ public class BotoLluita : MonoBehaviour
         scriptlluita1 = GetComponent<Scriptlluita1>();
         //siguentePantalla = SceneManager.GetActiveScene().buildIndex + 1;
 
-        // Recuperar el tag del enemigo desde PlayerPrefs, si no existe asignamos un valor vac�o
+        // Recuperar el tag del enemigo desde PlayerPrefs, si no existe asignamos un valor vacío
         string enemigoTag = PlayerPrefs.GetString("EnemigoTag");
 
-
-        if (string.IsNullOrEmpty(enemigoTag))  // Comprobamos si el tag es nulo o vac�o
+        if (string.IsNullOrEmpty(enemigoTag))  // Comprobamos si el tag es nulo o vacío
         {
-            Debug.LogError("El tag del enemigo no est� definido correctamente.");
+         //   Debug.LogError("El tag del enemigo no está definido correctamente.");
         }
     }
 
@@ -70,7 +74,7 @@ public class BotoLluita : MonoBehaviour
     {
         if (Lluita != null)
         {
-            Lluita.SetActive(false);
+            //Lluita.SetActive(false);
             Mochila.SetActive(false);
             Escapar.SetActive(false);
             Resposta.SetActive(true);
@@ -127,6 +131,10 @@ public class BotoLluita : MonoBehaviour
 
     void Update()
     {
+        if(jugadorRecibeDaño){
+           //vidasJuga--;
+            ActualizarVidasJugador();
+        }
         if (temporizadorEnMarcha)
         {
             ActualizarTemporizador();
@@ -175,16 +183,15 @@ public class BotoLluita : MonoBehaviour
             resultadoCorrecto = numero1 - numero2;
         }
 
-        textoOperacion.text = $"�Cu�nto es {numero1} {operacion} {numero2}?";
+        textoOperacion.text = $"Quant és {numero1} {operacion} {numero2}?";
         textoOperacion.gameObject.SetActive(true);
     }
-   
 
     public void VerificarRespuesta()
     {
         if (string.IsNullOrEmpty(respuestaInput.text))
         {
-            resultadoText.text = "Por favor, ingresa una respuesta.";
+            resultadoText.text = "Introdueix una resposta";
             return;
         }
 
@@ -193,19 +200,24 @@ public class BotoLluita : MonoBehaviour
         {
             if (respuestaJugador == resultadoCorrecto)
             {
-                resultadoText.text = "Correcto!";
+                resultadoText.text = "CORRECTE!";
                 vidasEnemi -= 1;
                 VidasEnemic.text = $"vidas x {vidasEnemi}";
+                ActualizarCorazones(corazonesEnemigo, vidasEnemi);
                 GenerarOperacion();
                 IniciarTemporizador();
                 scriptlluita1.MoverEnemic();
-                
             }
             else
             {
-                resultadoText.text = "Has fallado!";
+                
+                resultadoText.text = "HAS FALLAT!";
                 vidasJuga -= 1;
+                jugadorRecibeDaño = true;
+                //ActualizarVidasJugador();
                 VidasJugador.text = $"vidas x {vidasJuga}";
+                //ActualizarCorazones(corazonesJugador, vidasJuga);
+                        
                 GenerarOperacion();
                 IniciarTemporizador();
                 scriptlluita1.MoverJugador();
@@ -213,7 +225,7 @@ public class BotoLluita : MonoBehaviour
         }
         else
         {
-            resultadoText.text = "Por favor, ingresa un n�mero.";
+            resultadoText.text = "Introdueix un número";
         }
 
         if (vidasJuga == 0)
@@ -223,12 +235,32 @@ public class BotoLluita : MonoBehaviour
         }
         else if (vidasEnemi == 0)
         {
-
-            // Regresar a la escena anterior
             int escenaAnterior = PlayerPrefs.GetInt("EscenaActual");
-            SceneManager.LoadScene(escenaAnterior +1);
+            SceneManager.LoadScene(escenaAnterior + 1);
         }
     }
-   
 
+    // corazones Actualizar corazones
+    private void ActualizarCorazones(List<Image> corazones, int vidasRestantes)
+    {
+        for (int i = 0; i < corazones.Count; i++)
+        {
+            corazones[i].enabled = false /*i < vidasRestantes*/;
+        }
+    }
+
+    private void ActualizarVidasJugador(){
+        
+        for(int i =0; i < vidasJugador.Count; i++){
+            if(i < vidasJuga){
+            vidasJugador[i].SetActive(false);
+            //idx++;
+            //break;
+            
+            } 
+        }
+        jugadorRecibeDaño = false;
+        Debug.LogError("El tag del enemigo no está definido correctamente.");
+       // Debug.log("sale de la funcion");
+    }
 }
