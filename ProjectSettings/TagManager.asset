@@ -14,6 +14,7 @@ TagManager:
   - Enemigo3
   - EnemigoFinal
   - mapa1
+  - Tocar
   layers:
   - Default
   - TransparentFX

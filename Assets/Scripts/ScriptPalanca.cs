@@ -13,7 +13,8 @@ public class ScriptPalanca : MonoBehaviour
     public Vector3 targetRotation; // Rotación final de la palanca 
     public float rotationSpeed = 5f; // Velocidad de movimiento 
     public GameObject interactionSprite; // Referencia al sprite de interacción 
-
+    public GameObject Puerta;
+    public Vector3 targetRotation2;
 
     private bool isPlayerTouching = false; // Indica si el jugador está tocando la palanca
     private bool isActivated = false; // Indica si la palanca está activada
@@ -43,8 +44,9 @@ public class ScriptPalanca : MonoBehaviour
                 leverHandle.localRotation,
                 Quaternion.Euler(targetRotation),
                 Time.deltaTime * rotationSpeed
-                
+
             );
+            Puerta.SetActive(false);
             Debug.Log(" ¡ ESTA ACTIVADO");
         }
         else
@@ -71,6 +73,15 @@ public class ScriptPalanca : MonoBehaviour
             {
                 interactionSprite.SetActive(true);
             }
+            if (collision.gameObject.CompareTag("Tocar"))
+            {
+                Debug.Log("jugador toco para ir a otra scena ");
+                isPlayerTouching = true;
+                PlayerPrefs.SetString("UltimaEscena", SceneManager.GetActiveScene().name);
+                SceneManager.LoadScene("ScenaFinal");
+
+
+            }
         }
     }
 
@@ -87,6 +98,6 @@ public class ScriptPalanca : MonoBehaviour
                 interactionSprite.SetActive(false);
             }
         }
+       
     }
 }
-    
