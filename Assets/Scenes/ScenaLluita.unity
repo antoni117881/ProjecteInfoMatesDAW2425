@@ -1278,10 +1278,14 @@ MonoBehaviour:
   VidasJugador: {fileID: 0}
   Temporizador: {fileID: 0}
   vidasJuga: 0
-  vidasEnemi: 0
+  vidasEnemi: 5
   tiempoInicial: 30
   tiempoRestante: 0
   scriptlluita1: {fileID: 0}
+  corazonesJugador: []
+  vidasJugador: []
+  corazonesEnemigo: []
+  "jugadorRecibeDa\xF1o": 0
 --- !u!1 &496055661
 GameObject:
   m_ObjectHideFlags: 0
@@ -1959,6 +1963,10 @@ MonoBehaviour:
   tiempoInicial: 15
   tiempoRestante: 0
   scriptlluita1: {fileID: 0}
+  corazonesJugador: []
+  vidasJugador: []
+  corazonesEnemigo: []
+  "jugadorRecibeDa\xF1o": 0
 --- !u!114 &1401622118
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2996,6 +3004,10 @@ MonoBehaviour:
   tiempoInicial: 30
   tiempoRestante: 0
   scriptlluita1: {fileID: 0}
+  corazonesJugador: []
+  vidasJugador: []
+  corazonesEnemigo: []
+  "jugadorRecibeDa\xF1o": 0
 --- !u!1 &1838742918
 GameObject:
   m_ObjectHideFlags: 0
